@@ -12,10 +12,10 @@ education:
     year: 2014
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-name: Nelson Bighetti
+- Causal Inference
+- Machine Learning
+- Epidemiology/Public Health
+name: Philip Clare
 organizations:
 - name: UNSW Sydney
   url: ""
