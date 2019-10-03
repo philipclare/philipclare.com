@@ -17,9 +17,9 @@ interests:
 - Information Retrieval
 name: Nelson Bighetti
 organizations:
-- name: Stanford University
+- name: UNSW Sydney
   url: ""
-role: Professor of Artificial Intelligence
+role: Research Fellow
 social:
 - icon: envelope
   icon_pack: fas
@@ -39,6 +39,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Philip joined NDARC as a Research Assistant in August 2012.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+He is a Biostatistician, with a Masters in Biostatistics from the University of Sydney. He currently works as a Biostatistician, consulting on a variety of projects for the centre. Philip is also undertaking a PhD in biostatistics, with a focus on causal inference in longitudinal data, under the supervision of Assoc. Prof. Timothy Dobbins, Prof. Richard Mattick and Assoc. Prof. Raimondo Bruno.
