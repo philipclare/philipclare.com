@@ -1,19 +1,15 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Biostatistician at the National Drug and Alcohol Research Centre, UNSW Sydney.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Biostatistics (submitted)
+    institution: UNSW Sydney
+    year: 2019
+  - course: Master of Biostatistics
+    institution: University of Sydney
+    year: 2014
 email: ""
 interests:
 - Artificial Intelligence
