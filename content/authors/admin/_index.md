@@ -39,6 +39,4 @@ user_groups:
 - Visitors
 ---
 
-Philip joined NDARC as a Research Assistant in August 2012.
-
-He is a Biostatistician, with a Masters in Biostatistics from the University of Sydney. He currently works as a Biostatistician, consulting on a variety of projects for the centre. Philip is also undertaking a PhD in biostatistics, with a focus on causal inference in longitudinal data, under the supervision of Assoc. Prof. Timothy Dobbins, Prof. Richard Mattick and Assoc. Prof. Raimondo Bruno.
+Philip is a Biostatistician, with a Masters in Biostatistics from the University of Sydney. He currently works as a Biostatistician, consulting on a variety of projects for the centre. Philip is also undertaking a PhD in biostatistics, with a focus on causal inference in longitudinal data, under the supervision of Assoc. Prof. Timothy Dobbins, Prof. Richard Mattick and Assoc. Prof. Raimondo Bruno.
