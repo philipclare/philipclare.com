@@ -30,7 +30,7 @@ date: "2016-02-03T00:00:00Z"
 doi: "https://doi.org/10.1016/S0140-6736(16)00161-6"
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**GETTY IMAGES**]'
   focal_point: ""
   preview_only: false
 projects: []
