@@ -36,7 +36,6 @@ authors:
 - Jallal Toufiq
 - Raymond Yans
 - Richard P Mattick
-
 date: "2016-02-03T00:00:00Z"
 doi: "https://doi.org/10.1016/S0140-6736(16)00161-6"
 featured: false
