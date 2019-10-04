@@ -37,7 +37,7 @@ authors:
 - Raymond Yans
 - Richard P Mattick
 date: "2016-02-03T00:00:00Z"
-doi: "https://doi.org/10.1016/S0140-6736(16)00161-6"
+doi: "10.1016/S0140-6736(16)00161-6"
 featured: false
 image:
   caption: 'Image credit: [**GETTY IMAGES**]'
@@ -53,6 +53,6 @@ slides: example
 summary: An article examining global use of opioids at a country level.
 tags:
 - Source Themes
-url_code: "https://www.sciencedirect.com/science/article/pii/S0140673616001616"
+url_source: "https://www.sciencedirect.com/science/article/pii/S0140673616001616"
 title: "Use of and barriers to access to opioid analgesics: a worldwide, regional, and national study"
 ---
