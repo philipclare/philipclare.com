@@ -1,5 +1,5 @@
 ---
-abstract: Background Recent research has not supported the idea that parental supply of alcohol to adolescents prevents later
+abstract: "Background Recent research has not supported the idea that parental supply of alcohol to adolescents prevents later
   alcohol-related harm. Yet the specific role of parental supply in shaping patterns of drinking over time remains unclear. 
   This study investigated the role of parental supply of alcohol in patterns of drinking across adolescence, and assessed
   whether that role remained consistent over time. Method Using a longitudinal cohort of 1927 adolescents (mean age 12.9 years),
@@ -13,7 +13,7 @@ abstract: Background Recent research has not supported the idea that parental su
   Conclusions Parental supply of alcohol was associated with increased alcohol consumption by their children during early
   adolescence. While parental supply appears to have less impact on drinking in later adolescence, there was no evidence to
   suggest it is protective. Parents should be advised to avoid supplying children with alcohol, particularly in early
-  adolescence.
+  adolescence."
 authors:
 - admin
 - Alexandra Aiken
