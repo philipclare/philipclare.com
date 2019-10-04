@@ -22,8 +22,8 @@ authors:
 - Louisa Degenhardt
 - Kypros Kypri
 - Richard P Mattick
-- date: "2019-08-29T00:00:00Z"
-- doi: "10.1016/j.drugalcdep.2019.06.031"
+date: "2019-08-29T00:00:00Z"
+doi: "10.1016/j.drugalcdep.2019.06.031"
 featured: false
 image:
   caption: 'Image credit: [**DRINKWISE**]'

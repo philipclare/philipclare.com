@@ -18,8 +18,8 @@ authors:
 - Sue Jacobs
 - Craig A Olsson
 - Delyse Hutchinson
-- date: "2019-09-16T00:00:00Z"
-- doi: "10.1007/s10995-019-02809-1"
+date: "2019-09-16T00:00:00Z"
+doi: "10.1007/s10995-019-02809-1"
 featured: false
 image:
   caption: 'Image credit: [**sheknows**]'
