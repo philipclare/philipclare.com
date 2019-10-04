@@ -15,7 +15,7 @@ interests:
 - Causal Inference
 - Machine Learning
 - Epidemiology/Public Health
-name: Philip Clare
+name: Philip J Clare
 organizations:
 - name: UNSW Sydney
   url: ""
