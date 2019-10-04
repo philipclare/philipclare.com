@@ -34,7 +34,7 @@ publication: 'Drug and Alcohol Dependence 204'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2016-02-03T00:00:00Z"
+publishDate: "2019-08-29T00:00:00Z"
 summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
 tags:
 - Source Themes

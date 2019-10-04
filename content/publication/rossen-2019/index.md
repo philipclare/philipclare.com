@@ -30,7 +30,7 @@ publication: 'Maternal and Child Health Journal'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2016-02-03T00:00:00Z"
+publishDate: "2019-09-16T00:00:00Z"
 summary: A study examining associations between postnatal bonding, maternal mental health, and substance use at 8-weeks postpartum, and mother–infant bonding and mother emotional availability at 12-months of age.
 tags:
 - Source Themes
