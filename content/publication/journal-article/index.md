@@ -49,7 +49,6 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2016-02-03T00:00:00Z"
-slides: example
 summary: An article examining global use of opioids at a country level.
 tags:
 - Source Themes
