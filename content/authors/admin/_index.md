@@ -27,9 +27,18 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/pjclare
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/philip-clare-340b5b33/
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Philip_Clare2
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com.au/citations?user=Q-dMOXsAAAAJ&hl
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-2009-7386
 - icon: github
   icon_pack: fab
   link: https://github.com/philipclare
