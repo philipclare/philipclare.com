@@ -37,7 +37,7 @@ date: "2018-05-10T00:00:00Z"
 doi: "10.1111/add.14263"
 featured: false
 image:
-  caption: 'Image credit: [**DRINKWISE**]'
+  caption: 'Image credit: [**The Right Step**]'
   focal_point: ""
   preview_only: false
 projects: []

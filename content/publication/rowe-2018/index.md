@@ -10,7 +10,7 @@ date: "2019-07-31T00:00:00Z"
 doi: "10.1080/15332640.2018.1484310"
 featured: false
 image:
-  caption: 'Image credit: [**DRINKWISE**]'
+  caption: 'Image credit: [**South-West Sydney PHN**]'
   focal_point: ""
   preview_only: false
 projects: []
