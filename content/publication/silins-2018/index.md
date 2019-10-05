@@ -46,7 +46,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2018-05-10T00:00:00Z"
-summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
+summary: The associations of adolescent drinking and adult alcohol-related harms, from four longitudinal australian cohorts.
 tags:
 - Source Themes
 url_source: "https://onlinelibrary.wiley.com/doi/abs/10.1111/add.14263"
