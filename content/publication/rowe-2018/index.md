@@ -6,7 +6,7 @@ authors:
 - Alison Jaworski
 - Peter Higgs
 - Philip J Clare
-date: "2019-07-31T00:00:00Z"
+date: "2018-07-31T00:00:00Z"
 doi: "10.1080/15332640.2018.1484310"
 featured: false
 image:
@@ -18,7 +18,7 @@ publication: 'Drug and Alcohol Dependence 204'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2019-07-31T00:00:00Z"
+publishDate: "2018-07-31T00:00:00Z"
 summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
 tags:
 - Source Themes
