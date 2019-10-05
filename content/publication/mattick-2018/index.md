@@ -26,7 +26,7 @@ Interpretation
 Providing alcohol to children is associated with alcohol-related harms. There is no evidence to support the view that parental supply protects from adverse drinking outcomes by providing alcohol to their child. Parents should be advised that this practice is associated with risk, both directly and indirectly through increased access to alcohol from other sources."
 featured: false
 image:
-  caption: 'Image credit: [**The Glen Centre**]'
+  caption: 'Image credit: [**UNSW Sydney**]'
   focal_point: ""
   preview_only: false
 projects: []
