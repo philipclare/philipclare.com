@@ -1,29 +1,13 @@
 ﻿---
-abstract: "Background
-Recent research has not supported the idea that parental supply of alcohol to adolescents prevents later alcohol-related harm. Yet the specific role of parental supply in shaping patterns of drinking over time remains unclear. This study investigated the role of parental supply of alcohol in patterns of drinking across adolescence, and assessed whether that role remained consistent over time.
-Method
-Using a longitudinal cohort of 1927 adolescents (mean age 12.9 years), recruited in 2010 and 2011 from schools across Australia and followed up annually until 2016, we assessed three outcomes using mixed-effect negative binomial regression: frequency of consumption, typical quantity consumed, and overall alcohol consumption in the year (frequency * quantity). Child, parental, familial, and peer confounders of adolescent alcohol consumption were measured and adjusted for in the analyses.
-Findings
-Parental supply was associated with greater overall consumption in earlier adolescence: Grade 7–8 (incidence rate ratio [IRR]: 3.61; 95% CI: 2.55, 5.12; no supply IRR: 1.00), Grade 8–9 (IRR: 4.84; 95% CI: 3.66, 6.39; no supply IRR: 1.44) and Grade 9–10 (IRR: 8.33; 95% CI: 6.28, 11.05; no supply IRR: 4.75). Alcohol consumption continued to increase in later adolescence regardless of whether parental supply occurred.
-Conclusions
-Parental supply of alcohol was associated with increased alcohol consumption by their children during early adolescence. While parental supply appears to have less impact on drinking in later adolescence, there was no evidence to suggest it is protective. Parents should be advised to avoid supplying children with alcohol, particularly in early adolescence."
+abstract: "In Australia, one in three people are born overseas, and one in five households speak languages other than English. This study explores substance use prevalence, related harms, and attitudes among these large groups in the population. Analysis was conducted using cross-sectional data (N = 22, 696) from the 2013 National Drug Strategy Household Survey. General linear model and binary logistic regression were used to assess substance use and harms, using stabilized inverse propensity score weighting to control for potential confounding variables. Between culturally and linguistically diverse populations and the population born in Australia, United Kingdom, or New Zealand who speak only English at home, there is no statistically significant variation in the likelihood of current smoking; using analgesics, tranquilizers, or sleeping pills; or administering drugs via injection. Culturally diverse populations are less likely to drink alcohol or use cannabis or methamphetamines. No difference between these two major groups in the population is observed in substance-related abuse from strangers; but culturally diverse respondents are less likely to report substance-related abuse from known persons. Lower substance use prevalence is not observed among people from culturally diverse backgrounds who have mental health issues. Australian-, UK-, or New Zealand–born respondents who speak only English at home are more likely to oppose drug and tobacco policies, including a range of harm reduction policies. We discuss the practical and ethical limitations of this major Australian data set for examining the burden of drug-related harms experienced by specific migrant populations. Avenues for potential future research are outlined."
 authors:
-- admin
-- Alexandra Aiken
-- Wing See Yuen
-- Amy Peacock
-- Veronica Boland
-- Monika Wadolowski
-- Delyse Hutchinson
-- Jackob Najman
-- Tim Slade
-- Raimondo Bruno
-- Nyanda McBride
-- Louisa Degenhardt
-- Kypros Kypri
-- Richard P Mattick
-date: "2019-08-29T00:00:00Z"
-doi: "10.1016/j.drugalcdep.2019.06.031"
+- Rachel Rowe
+- Y Gavriel Ansara
+- Alison Jaworski
+- Peter Higgs
+- Philip J Clare
+date: "2019-07-31T00:00:00Z"
+doi: "10.1080/15332640.2018.1484310"
 featured: false
 image:
   caption: 'Image credit: [**DRINKWISE**]'
@@ -34,10 +18,10 @@ publication: 'Drug and Alcohol Dependence 204'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2019-08-29T00:00:00Z"
+publishDate: "2019-07-31T00:00:00Z"
 summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
 tags:
 - Source Themes
-url_source: "https://www.sciencedirect.com/science/article/pii/S0376871619302881"
-title: "Parental supply of alcohol as a predictor of adolescent alcohol consumption patterns: A prospective cohort"
+url_source: "https://www.tandfonline.com/doi/abs/10.1080/15332640.2018.1484310"
+title: "What is the alcohol, tobacco, and other drug prevalence among culturally and linguistically diverse groups in the Australian population? A national study of prevalence, harms, and attitudes"
 ---
