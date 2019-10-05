@@ -24,7 +24,7 @@ url_source: "https://ndarc.med.unsw.edu.au/sites/default/files/ndarc/resources/N
 abstract: []
 featured: false
 image:
-  caption: 'Image credit: [**UNSW Sydney**]'
+  caption: 'Image credit: [**GETTY IMAGES**]'
   focal_point: ""
   preview_only: false
 projects: []
