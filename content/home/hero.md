@@ -2,13 +2,13 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 title = "Welcome!"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "horst/bakers_3.png"
+hero_media = "banner.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -35,7 +35,7 @@ hero_media = "horst/bakers_3.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Start here!"
+  label = "Enter!"
   icon_pack = "fas"
   icon = "rocket"
   
@@ -45,9 +45,9 @@ hero_media = "horst/bakers_3.png"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = 'All [art](https://github.com/hadley/joy-of-fp) by [@allisonhorst](https://github.com/allisonhorst/stats-illustrations) [(CC-BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/)'
+  label = []
 +++
 
-This is my knowledge repository for the YSC 2019 R Markdown workshop.
+Personal website of Biostatistician Philip J Clare.
 
 
