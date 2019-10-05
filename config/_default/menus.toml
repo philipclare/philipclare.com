@@ -14,7 +14,12 @@
    url = "/contact"
    weight = 40
 
+[[main]]
+   name = "Talks"
+   url = "/talk"
+   weight = 50
+
 #[[main]]
 #   name = "CV"
 #   url = "files/contact.pdf"
-#   weight = 40
+#   weight = 60
