@@ -23,7 +23,7 @@ math: true
 projects: []
 publishDate: "2019-10-05T00:00:00Z"
 slides: []
-summary: An example talk using Academic's Markdown slides feature.
+summary: A seminar on non-standard research designs.
 tags: []
 url_code: ""
 url_pdf: ""
