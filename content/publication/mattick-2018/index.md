@@ -1,54 +1,41 @@
 ﻿---
-abstract: "Background and Aims
-Studies have linked adolescent alcohol use with adverse consequences in adulthood, yet it is unclear how strong the associations are and to what extent they may be due to confounding. Our aim was to estimate the strength of association between different patterns of adolescent drinking and longer‐term psychosocial harms taking into account individual, family and peer factors.
-Design
-Participant‐level data were integrated from four long‐running longitudinal studies: Australian Temperament Project, Christchurch Health and Development Study, Mater Hospital and University of Queensland Study of Pregnancy and Victorian Adolescent Health Cohort Study.
-Setting
-Australia and New Zealand.
-Participants
-Participants were assessed on multiple occasions between ages 13 and 30 years (from 1991 to 2012). Number of participants varied (up to n = 9453) by analysis.
-Measurements
-Three patterns of alcohol use (frequent, heavy episodic and problem drinking) were assessed prior to age 17. Thirty outcomes were assessed to age 30 spanning substance use and related problems, antisocial behaviour, sexual risk‐taking, accidents, socio‐economic functioning, mental health and partner relationships.
-Findings
-After covariate adjustment, weekly drinking prior to age 17 was associated with a two‐ to threefold increase in the odds of binge drinking [odds ratio (OR) = 2.14; 95% confidence interval (CI) = 1.57–2.90], drink driving (OR = 2.78; 95% CI = 1.84–4.19), alcohol‐related problems (OR = 3.04; 95% CI = 1.90–4.84) and alcohol dependence (OR = 3.30; 95% CI = 1.69–6.47) in adulthood. Frequency of drinking accounted for a greater proportion of the rate of most adverse outcomes than the other measures of alcohol use. Associations between frequent, heavy episodic and problem drinking in adolescence and most non‐alcohol outcomes were largely explained by shared risk factors for adolescent alcohol use and poor psychosocial functioning.
-Conclusions
-Frequency of adolescent drinking predicts substance use problems in adulthood as much as, and possibly more than, heavy episodic and problem drinking independent of individual, family and peer predictors of those outcomes."
+title: "Association of parental supply of alcohol with adolescent drinking, alcohol-related harms, and alcohol use disorder symptoms: a prospective cohort study"
 authors:
-- Edmund Silins
-- L John Horwood
-- Jake M Najman
-- George C Patton
-- John W Toumbourou
-- Craig A. Olsson
-- Delyse M Hutchinson
-- Louisa Degenhardt
-- David Fergusson
-- Denise Becker
-- Joseph M Boden
-- Rohan Borschmann
-- Maria Plotnikova
-- George J Youssef
-- Robert J Tait
-- admin
-- Wayne D Hall
 - Richard P Mattick
-- for the Cannabis Cohorts Research Consortium
-date: "2018-05-10T00:00:00Z"
-doi: "10.1111/add.14263"
+- admin
+- Alexandra Aiken
+- Monika Wadolowski
+- Delyse Hutchinson
+- Jackob Najman
+- Tim Slade
+- Raimondo Bruno
+- Nyanda McBride
+- Kypros Kypri
+- Laura Vogl
+- Louisa Degenhardt
+date: "2018-02-01T00:00:00Z"
+doi: "10.1016/S2468-2667(17)30240-2"
+url_source: "https://www.sciencedirect.com/science/article/pii/S2468266717302402"
+abstract: "Background
+Some parents supply alcohol to their children, reportedly to reduce harm, yet longitudinal research on risks associated with such supply is compromised by short periods of observation and potential confounding. We aimed to investigate associations between parental supply and supply from other (non-parental) sources, with subsequent drinking outcomes over a 6-year period of adolescence, adjusting for child, parent, family, and peer variables.
+Methods
+We did this prospective cohort study using data from the Australian Parental Supply of Alcohol Longitudinal Study cohort of adolescents. Children in grade 7 (mean age 12 years), and their parents, were recruited between 2010 and 2011 from secondary schools in Sydney, Perth, and Hobart, Australia, and were surveyed annually between 2010 and 2016. We examined the association of exposure to parental supply and other sources of alcohol in 1 year with five outcomes in the subsequent year: binge drinking (more than four standard drinks on a drinking occasion); alcohol-related harms; and symptoms of alcohol abuse (as defined by Diagnostic and Statistical Manual of Mental Disorders, 4th edition [DSM-IV]), alcohol dependence, and alcohol use disorder (as defined by DSM-5). This trial is registered with ClinicalTrials.gov, number NCT02280551.
+Findings
+Between September, 2010, and June, 2011, we recruited 1927 eligible parents and adolescents (mean age 12·9 years [SD 0·52]). Participants were followed up until 2016, during which time binge drinking and experience of alcohol-related harms increased. Adolescents who were supplied alcohol only by parents had higher odds of subsequent binge consumption (odds ratio [OR] 2·58, 95% CI 1·96–3·41; p<0·0001), alcohol-related harm (2·53, 1·99–3·24; p<0·0001), and symptoms of alcohol use disorder (2·51, 1·46–4·29; p=0·0008) than did those reporting no supply. Parental supply of alcohol was not significantly associated with the odds of reporting symptoms of either alcohol abuse or dependence, compared with no supply from any source. Supply from other sources was associated with significant risks of all adverse outcomes, compared with no supply, with an even greater increased risk of adverse outcomes.
+Interpretation
+Providing alcohol to children is associated with alcohol-related harms. There is no evidence to support the view that parental supply protects from adverse drinking outcomes by providing alcohol to their child. Parents should be advised that this practice is associated with risk, both directly and indirectly through increased access to alcohol from other sources."
 featured: false
 image:
-  caption: 'Image credit: [**The Right Step**]'
+  caption: 'Image credit: [**The Glen Centre**]'
   focal_point: ""
   preview_only: false
 projects: []
-publication: 'Addiction 113(10)'
+publication: 'The Lancet 3(2)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2018-05-10T00:00:00Z"
-summary: The associations of adolescent drinking and adult alcohol-related harms, from four longitudinal australian cohorts.
+publishDate: "2018-02-01T00:00:00Z"
+summary: Analysis of the association between parental supply of alcohol and alcohol-related harms.
 tags:
 - Source Themes
-url_source: "https://onlinelibrary.wiley.com/doi/abs/10.1111/add.14263"
-title: "Adverse adult consequences of different alcohol use patterns in adolescence: an integrative analysis of data to age 30 years from four Australasian cohorts"
 ---
