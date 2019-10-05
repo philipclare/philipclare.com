@@ -1,43 +1,32 @@
 ﻿---
 abstract: "Background
-Recent research has not supported the idea that parental supply of alcohol to adolescents prevents later alcohol-related harm. Yet the specific role of parental supply in shaping patterns of drinking over time remains unclear. This study investigated the role of parental supply of alcohol in patterns of drinking across adolescence, and assessed whether that role remained consistent over time.
-Method
-Using a longitudinal cohort of 1927 adolescents (mean age 12.9 years), recruited in 2010 and 2011 from schools across Australia and followed up annually until 2016, we assessed three outcomes using mixed-effect negative binomial regression: frequency of consumption, typical quantity consumed, and overall alcohol consumption in the year (frequency * quantity). Child, parental, familial, and peer confounders of adolescent alcohol consumption were measured and adjusted for in the analyses.
-Findings
-Parental supply was associated with greater overall consumption in earlier adolescence: Grade 7–8 (incidence rate ratio [IRR]: 3.61; 95% CI: 2.55, 5.12; no supply IRR: 1.00), Grade 8–9 (IRR: 4.84; 95% CI: 3.66, 6.39; no supply IRR: 1.44) and Grade 9–10 (IRR: 8.33; 95% CI: 6.28, 11.05; no supply IRR: 4.75). Alcohol consumption continued to increase in later adolescence regardless of whether parental supply occurred.
+Obtaining unbiased causal estimates from longitudinal observational data can be difficult due to exposure-affected time-varying confounding. The past decade has seen considerable development in methods for analysing such complex longitudinal data. However, the extent to which those methods have been implemented is unclear. This study describes and characterizes the state of the field in methods adjusting for exposure-affected time-varying confounding, and examines their use in the literature.
+Methods
+We systematically reviewed the literature from 2000 to 2016 for studies adjusting for time-dependent confounding, including use of specific methods like inverse probability of treatment weighting (IPTW). Articles were coded based on the methods used and, for applied articles, the topic areas covered.
+Results
+We screened 4239 abstracts, and subsequently reviewed 1100 articles, leaving 542 relevant articles in the analyses. The number of published articles increased from two in 2000, to 112 in 2016. This increase was primarily in applied articles using IPTW, which increased from one study in 2000, to 90 in 2016. Of the 432 studies with applications to observed data, 60.9% were on at least one of: HIV (30.6%), cardiopulmonary health (13.2%), kidney disease (11.8%) or mental health (10.0%).
 Conclusions
-Parental supply of alcohol was associated with increased alcohol consumption by their children during early adolescence. While parental supply appears to have less impact on drinking in later adolescence, there was no evidence to suggest it is protective. Parents should be advised to avoid supplying children with alcohol, particularly in early adolescence."
+There has been marked growth in reports addressing exposure-affected time-varying confounding. This was driven by work in a small number of topic areas, with other areas showing relatively little uptake. In addition, despite developments in more advanced methods such doubly robust techniques and estimation via machine learning, implementation has been largely concentrated on the simpler, yet potentially less robust, IPTW."
 authors:
 - admin
-- Alexandra Aiken
-- Wing See Yuen
-- Amy Peacock
-- Veronica Boland
-- Monika Wadolowski
-- Delyse Hutchinson
-- Jackob Najman
-- Tim Slade
-- Raimondo Bruno
-- Nyanda McBride
-- Louisa Degenhardt
-- Kypros Kypri
+- Timothy A Dobbins
 - Richard P Mattick
-date: "2019-08-29T00:00:00Z"
-doi: "10.1016/j.drugalcdep.2019.06.031"
+date: "2018-10-24T00:00:00Z"
+doi: "10.1093/ije/dyy218"
 featured: false
 image:
   caption: 'Image credit: [**DRINKWISE**]'
   focal_point: ""
   preview_only: false
 projects: []
-publication: 'Drug and Alcohol Dependence 204'
+publication: 'International Journal of Epidemiology 48(1)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2019-08-29T00:00:00Z"
-summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
+publishDate: "2018-10-24T00:00:00Z"
+summary: An overview and systematic review of methods for handling exposure-affected time-varying confounding.
 tags:
 - Source Themes
 url_source: "https://www.sciencedirect.com/science/article/pii/S0376871619302881"
-title: "Parental supply of alcohol as a predictor of adolescent alcohol consumption patterns: A prospective cohort"
+title: "Causal models adjusting for time-varying confounding—a systematic review of the literature "
 ---
