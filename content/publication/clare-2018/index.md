@@ -15,7 +15,6 @@ date: "2018-10-24T00:00:00Z"
 doi: "10.1093/ije/dyy218"
 featured: false
 image:
-  caption: 'Image credit: [**DRINKWISE**]'
   focal_point: ""
   preview_only: false
 projects: []
