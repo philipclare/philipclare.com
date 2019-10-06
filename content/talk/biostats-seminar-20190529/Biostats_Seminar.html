@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Biostats_Seminar.utf8.md</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="UNSW.css" type="text/css" />
+    <link rel="stylesheet" href="UNSW-font.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: title-slide
+
+&lt;div style="min-height:100%; height:100%; width:100%;"&gt;
+  &lt;div style="height:65%; width:100%; background-color:clear;"&gt;
+  &lt;/div&gt;
+  &lt;div style="width:100%; background-color:#fee600;"&gt;
+    &lt;table style="width:100%; border:0px"&gt;
+      &lt;tr&gt;
+        &lt;td style="width:20%; vertical-align:middle;"&gt;&lt;img src="http://www.philipclare.com/img/unsw logo.jpg" style="width:100%;"&gt;&lt;/td&gt;
+        &lt;td style="width:80%; vertical-align:middle;"&gt;&lt;h1&gt;Robust causal inference using non-randomized longitudinal data&lt;/h1&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+    &lt;table style="width:100%; border:0px"&gt;
+      &lt;tr&gt;
+        &lt;td style="width:20%; vertical-align:top;"&gt;&lt;br&gt;&lt;/td&gt;
+        &lt;td style="width:80%; vertical-align:top;"&gt;&lt;h3&gt;Philip Clare&lt;/h3&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/div&gt; 
+  
+---
+
+# Acknowledgements
+Funding: 
+- I receive an RTP Scholarship from the Australian Government and a Scholarship from NDARC
+- NDARC receives funding from the Australian Government Department of Health
+
+Thanks to my PhD Supervisors: Tim Dobbins, Richard Mattick and Raimondo Bruno.
+
+---
+
+# Overview
+1. Background;
+1. Bias in causal inference;
+1. Assumptions in causal inference;
+1. Methods for causal inference;
+1. Targeted maximum likelihood estimation;
+1. TMLE Examples;
+1. Conclusions;
+1. References;
+
+---
+
+# Background
+- Causal inference at its simplest:
+  - "the difference in a given outcome, based on some prior event, compared with what would have happened had that event not occurred"
+- RCTs are, and will remain, the gold standard
+- There are times when RCTs aren't possible
+- Causal inference is possible without randomization
+  - It just requires more caution
+
+---
+
+# Bias in causal inference
+- General to all observational studies
+  - Selection bias
+  - Confounding
+  - Collider bias
+  - Measurement error
+- Specific to longitudinal analysis
+  - Loss to follow-up
+  - Exposure affected time-varying confounding
+
+---
+
+# Bias in causal inference
+
+.center[
+![Figure 1](img/fig1.png)
+]
+
+---
+
+# Bias in causal inference
+
+.center[
+![Figure 2](img/fig2.png)
+]
+
+---
+
+# Bias in causal inference
+
+.center[
+![Figure 3](img/fig3.png)
+]
+
+---
+
+# Assumptions in causal inference
+- No interference
+- Consistency
+- Positivity
+- No unmeasured confounding
+
+---
+
+# Methods for causal inference
+- Propensity score matching (PSM)
+- Marginal Structural models (MSM)
+- G-computation
+- Doubly-robust methods (DR)
+
+---
+
+# Methods for causal inference
+- Doubly-robust methods (DR)
+  - At their simplest: DR methods are those that provide consistent estimates even when one of either the propensity or outcome models are estimated consistently
+'Simple' DR methods:
+  - adjusted IPTW
+  - IPTW weighted
+  - G-computation
+  - A-IPTW
+- Similar to IPTW, but adjusts the IPTW estimate by a function of the outcome model
+- There is some discussion about the best approach for this in terms of estimating the models
+
+---
+
+# Targeted maximum likelihood estimation
+- TMLE is a targeted substitution estimator that treats everything except the target estimand as 'nuisance' parameters
+- TMLE involves:
+  - estimating an initial conditional expectation of an outcome using maximum likelihood,
+  - estimating the propensity score,
+  - using the propensity score to create a 'clever' covariate h, and
+  - updating the outcome model based on a function of the initial estimates and the clever covariate
+
+---
+
+# Targeted maximum likelihood estimation
+- This can be repeated if necessary, and will iterate to the target parameter
+.center[
+![Figure 4](img/fig4.png)
+]
+- However, it has been shown that most common effect measures can be estimated in one iteration
+
+---
+
+# Targeted maximum likelihood estimation
+- Because it is a substitution estimator that doesn't use the parameters of the initial models, TMLE is commonly estimated using ensemble machine learning
+  - The ensemble machine learning algorithm 'Super Learner' was developed in parallel with TMLE
+  - The packages 'tmle' and 'ltmle' in R both call 'SuperLearner' by default
+
+---
+
+# Targeted maximum likelihood estimation
+- TMLE is relatively new
+- There are a number of areas of ongoing investigation regarding the performance:
+- Balance SuperLearner: an adaptation of the SL algorithm optimized for balance rather than accuracy of prediction
+- Collaborative TMLE, which uses a loss function based on Q to fluctuate the nuisance parameter, instead of a loss function of the nuisance parameter itself. C-TMLE can be a consistent estimator even when both models are misspecified
+
+---
+
+# TMLE Examples
+- Random data following the DAG from earlier
+- True parameter is:
+
+.center[
+`\(Joint = 0.5×A_0 + 1.5×A_1 - 1.0×A_0×A_1 = 1.0\)`
+]
+
+.center[
+![Figure 5](img/fig5.png)
+]
+
+---
+
+# TMLE Examples
+
+.center[
+![Figure 6](img/fig6.png)
+]
+---
+
+# TMLE Examples
+
+.center[
+![Figure 7](img/fig7.png)
+]
+
+---
+
+# TMLE Examples
+
+.center[
+![Figure 8](img/fig8.png)
+]
+
+---
+
+# TMLE Examples
+
+.center[
+![Figure 9](img/fig9.png)
+]
+
+---
+
+# Conclusions
+- Unbiased causal inference is possible in non-randomized studies
+- There are methods to deal with bias
+- Newer methods are more robust 
+- Even for analysis of association, bias is an issue that can be addressed by these methods
+- Markdown for a TMLE tutorial currently under review at Statistics in medicine: https://github.philipclare.com/tmletutorial
+
+---
+
+# References
+.small[
+1. Clare PJ, Dobbins TA, Mattick RP. Causal models adjusting for time-varying confounding-a systematic review of the literature. Int J Epi. 2019;48(1):254-265.
+1. Robins JM. Marginal Structural Models. 1997 Proceedings of the American Statistical Association, Section on Bayesian Statistical Science. 1998:1-10.
+1. Robins JM. A new approach to causal inference in mortality studies with a sustained exposure period-application to control of the healthy worker survivor effect. Mathematical Modelling. 1986;7(9):1393-512.
+1. Bang H, Robins JM. Doubly robust estimation in missing data and causal inference models. Biometrics. 2005;61(4):962-72.
+1. Van der Laan MJ, Rubin D. Targeted Maximum Likelihood Learning. Int J Biostat. 2006;2(1).
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
