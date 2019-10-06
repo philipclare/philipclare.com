@@ -27,6 +27,6 @@ summary: A seminar on robust causal inference methods.
 tags: []
 url_code: ""
 url_pdf: ""
-url_slides: "Biostats_Seminar.html"
+url_slides: Biostats_Seminar.html
 url_video: ""
 ---
