@@ -1,0 +1,86 @@
+
+.remark-slide-content {
+  background-color: #fff;
+    font-family: 'Arial';
+  font-size: 30px;
+  font-weight: 300;
+  padding: 1em 2em 0em 2em;
+  background-image: url("http://www.philipclare.com/img/ndarc.jpg"), url("http://www.philipclare.com/img/delta.jpg");
+  background-position: 5% 96%, 100% 92%;
+}
+
+.remark-slide-content > h1 {
+  font-family: 'Palatino Linotype';
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  color: #515151;
+    border-bottom: 1px solid #f00;
+}
+
+img { 
+  width: 60%;
+  vertical-align: middle;
+}
+
+.small {
+  font-size: 25px !important;
+}
+
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url("http://www.philipclare.com/img/ndarc logo1.jpg");
+  background-position: 0 12%;
+  background-size: 250px;
+  background-color: #fff;
+  padding: 0 0 0 0;
+  height: 100%;
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #000;
+  font-family: 'Palatino Linotype';
+  font-weight: normal;
+  font-size: 35px;
+  text-align: left;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border-bottom: 0px solid #f00;
+}
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #515151;
+  font-family: 'Palatino Linotype';
+  font-size: 30px;
+  text-align: left;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  margin-left: 100px;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  color: #515151;
+  font-family: 'Palatino Linotype';
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* turns off slide numbers for title page: https://github.com/gnab/remark/issues/298 */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+
+
