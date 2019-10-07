@@ -27,7 +27,8 @@ image:
   caption: 'Image credit: [**Deccan Chronicle**]'
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- APSALS
 publication: 'Alcoholism Clinical & Experimental Research 42(1)'
 publication_short: ""
 publication_types:

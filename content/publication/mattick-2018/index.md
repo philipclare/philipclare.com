@@ -29,7 +29,8 @@ image:
   caption: 'Image credit: [**UNSW Sydney**]'
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- APSALS
 publication: 'The Lancet 3(2)'
 publication_short: ""
 publication_types:

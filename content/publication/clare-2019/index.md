@@ -29,7 +29,8 @@ image:
   caption: 'Image credit: [**DRINKWISE**]'
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- APSALS
 publication: 'Drug and Alcohol Dependence 204'
 publication_short: ""
 publication_types:

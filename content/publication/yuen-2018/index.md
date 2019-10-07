@@ -27,7 +27,8 @@ image:
   caption: 'Image credit: [**GETTY IMAGES**]'
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- APSALS
 publication: 'NDARC Technical Report No. 340'
 publication_short: ""
 publication_types:
