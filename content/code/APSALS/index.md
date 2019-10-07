@@ -21,7 +21,7 @@ image:
   preview_only: false
 projects:
 - APSALS
-- Causal inference
+- causal-inference
 ---
 
 This repository contains R code used in the TMLE analysis of parental supply of alcohol on harms in the APSALS dataset by Clare et al. 2019

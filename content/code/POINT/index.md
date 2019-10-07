@@ -18,7 +18,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- Causal inference
+- causal-inference
 ---
 
 This repository contains R code used in the TMLE analysis of POINT data on the effect of alcohol exposure on chronic pain, by Clare et al. 2019

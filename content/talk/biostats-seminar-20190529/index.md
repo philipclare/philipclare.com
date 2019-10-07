@@ -21,7 +21,7 @@ links:
 location: NDARC
 math: true
 projects: 
-- Causal inference
+- causal-inference
 publishDate: "2019-10-06T00:00:00Z"
 slides: []
 summary: A seminar on robust causal inference methods.

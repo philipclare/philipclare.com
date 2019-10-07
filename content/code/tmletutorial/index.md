@@ -18,7 +18,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- Causal inference
+- causal-inference
 ---
 
 This repository contains data and a number of snippets of R code, used in the TMLE tutorial by Clare, Dobbins, Bruno and Mattick.

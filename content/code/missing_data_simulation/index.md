@@ -18,7 +18,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- Causal inference
+- causal-inference
 ---
 
 This repository contains the Stata and R code used in the missing data simulation by Clare et al. 2019
