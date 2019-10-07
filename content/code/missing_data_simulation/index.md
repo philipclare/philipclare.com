@@ -1,10 +1,12 @@
----
+﻿---
 title: 'Comparison of methods of adjusting for time-varying confounding with missing data – A Monte-Carlo simulation study'
 subtitle: 'Stata and R Analysis Code'
 summary: Stata and R Analysis Code
 authors:
 - admin
-tags: []
+tags:
+- Monte-Carlo simulation study
+- Causal inference
 categories: []
 date: "2019-03-15T00:00:00Z"
 lastmod: "2019-03-22T00:00:00Z"
@@ -15,7 +17,8 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- Causal inference
 ---
 
 This repository contains the Stata and R code used in the missing data simulation by Clare et al. 2019

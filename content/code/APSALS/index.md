@@ -1,10 +1,14 @@
----
+﻿---
 title: 'The overall effect of parental supply of alcohol across adolescence on alcohol-related harms in early adulthood – a prospective cohort study'
 subtitle: 'R Analysis Code'
 summary: R Analysis Code
 authors:
 - admin
-tags: []
+tags:
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
+- Causal inference
 categories: []
 date: "2019-03-14T00:00:00Z"
 lastmod: "2019-06-22T00:00:00Z"
@@ -15,7 +19,9 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- APSALS
+- Causal inference
 ---
 
 This repository contains R code used in the TMLE analysis of parental supply of alcohol on harms in the APSALS dataset by Clare et al. 2019

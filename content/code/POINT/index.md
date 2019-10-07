@@ -1,10 +1,12 @@
----
+﻿---
 title: 'The association between alcohol use and pain in people with chronic non-cancer pain prescribed pharmaceutical opioids – a prospective cohort study'
 subtitle: 'R Analysis Code'
 summary: R Analysis Code
 authors:
 - admin
-tags: []
+tags:
+- Opioids
+- Causal inference
 categories: []
 date: "2019-03-14T00:00:00Z"
 lastmod: "2019-06-20T00:00:00Z"
@@ -15,7 +17,8 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- Causal inference
 ---
 
 This repository contains R code used in the TMLE analysis of POINT data on the effect of alcohol exposure on chronic pain, by Clare et al. 2019

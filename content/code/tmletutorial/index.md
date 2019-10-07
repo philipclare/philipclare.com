@@ -1,10 +1,12 @@
----
+﻿---
 title: 'Targeted Maximum Likelihood Estimation to adjust for time-varying confounding – a tutorial paper'
 subtitle: 'R Markdown and Analysis Code'
 summary: R Markdown and Analysis Code
 authors:
 - admin
-tags: []
+tags:
+- Tutorial paper
+- Causal inference
 categories: []
 date: "2018-12-04T00:00:00Z"
 lastmod: "2018-12-03T00:00:00Z"
@@ -15,7 +17,8 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- Causal inference
 ---
 
 This repository contains data and a number of snippets of R code, used in the TMLE tutorial by Clare, Dobbins, Bruno and Mattick.
