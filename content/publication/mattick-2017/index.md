@@ -1,7 +1,6 @@
 ﻿---
 title: "Parental supply of alcohol and alcohol consumption in adolescence: prospective cohort study"
 authors:
-- prospective cohort study
 - Richard P Mattick
 - Monika Wadolowski
 - Alexandra Aiken
@@ -13,8 +12,8 @@ authors:
 - Nyanda McBride
 - Louisa Degenhardt
 - Kypros Kypri
-date: "2017-08-30T00:00:00Z"
-publishDate: "2017-08-30T00:00:00Z"
+date: "2016-10-05T00:00:00Z"
+publishDate: "2016-10-05T00:00:00Z"
 doi: "10.1017/S0033291716002373"
 url_source: "https://www.cambridge.org/core/journals/psychological-medicine/article/parental-supply-of-alcohol-and-alcohol-consumption-in-adolescence-prospective-cohort-study/CE8903F9DD77A2143E2D2A85C20851AD"
 abstract: "Background
