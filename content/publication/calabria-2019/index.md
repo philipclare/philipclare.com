@@ -21,7 +21,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2019-09-16T00:00:00Z"
-summary: Results of a pilot study of the Community Reinforcement Approach (CRA) to reducint drug and alcohol use.
+summary: Results of a pilot study of the Community Reinforcement Approach (CRA) to reducing drug and alcohol use.
 tags:
 - Source Themes
 url_source: "https://onlinelibrary.wiley.com/doi/full/10.1002/ijop.12603"
