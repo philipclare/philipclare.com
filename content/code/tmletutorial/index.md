@@ -4,10 +4,8 @@ subtitle: 'R Markdown and Analysis Code'
 summary: R Markdown and Analysis Code
 authors:
 - admin
-tags:
-- Academic
-categories:
-- Demo
+tags: []
+categories: []
 date: "2018-12-04T00:00:00Z"
 lastmod: "2018-12-03T00:00:00Z"
 featured: false

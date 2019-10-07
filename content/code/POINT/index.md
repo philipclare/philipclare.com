@@ -4,10 +4,8 @@ subtitle: 'R Analysis Code'
 summary: R Analysis Code
 authors:
 - admin
-tags:
-- Academic
-categories:
-- Demo
+tags: []
+categories: []
 date: "2019-03-14T00:00:00Z"
 lastmod: "2019-06-20T00:00:00Z"
 featured: false

@@ -4,10 +4,8 @@ subtitle: 'Stata and R Analysis Code'
 summary: Stata and R Analysis Code
 authors:
 - admin
-tags:
-- Academic
-categories:
-- Demo
+tags: []
+categories: []
 date: "2019-03-15T00:00:00Z"
 lastmod: "2019-03-22T00:00:00Z"
 featured: false
