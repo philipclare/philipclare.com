@@ -13,10 +13,10 @@
    url = "/talk"
    weight = 40
 
-#[[main]]
-#   name = "Code"
-#   url = "/code"
-#   weight = 50
+[[main]]
+   name = "Code"
+   url = "/code"
+   weight = 50
 
 [[main]]
    name = "Contact"
