@@ -40,7 +40,8 @@ publication_types:
 publishDate: "2016-02-03T00:00:00Z"
 summary: An article examining global use of opioids at a country level.
 tags:
-- Source Themes
+- Opioid use
+- Longitudinal trend analysis
 url_source: "https://www.sciencedirect.com/science/article/pii/S0140673616001616"
 title: "Use of and barriers to access to opioid analgesics: a worldwide, regional, and national study"
 ---

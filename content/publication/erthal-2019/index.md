@@ -25,7 +25,8 @@ publication_types:
 publishDate: "2019-09-16T00:00:00Z"
 summary: Examining global trends in the use of opioid analgesics.
 tags:
-- Source Themes
+- Opioid use
+- Longitudinal trend analysis
 url_source: "https://link.springer.com/article/10.1007/s40429-019-0234-2"
 title: "Hot Topic: Global Trends in the Use of Opioid Analgesics"
 ---

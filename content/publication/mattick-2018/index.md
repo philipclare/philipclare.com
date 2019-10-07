@@ -37,5 +37,7 @@ publication_types:
 publishDate: "2018-02-01T00:00:00Z"
 summary: Analysis of the association between parental supply of alcohol and alcohol-related harms.
 tags:
-- Source Themes
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
 ---

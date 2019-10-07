@@ -35,5 +35,7 @@ publication_types:
 publishDate: "2018-09-11T00:00:00Z"
 summary: A report describing the protocol for the extension of the APSALS longitudinal cohort study.
 tags:
-- Source Themes
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
 ---

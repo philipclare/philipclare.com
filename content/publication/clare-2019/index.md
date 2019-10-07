@@ -37,7 +37,9 @@ publication_types:
 publishDate: "2019-08-29T00:00:00Z"
 summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
 tags:
-- Source Themes
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
 url_source: "https://www.sciencedirect.com/science/article/pii/S0376871619302881"
 title: "Parental supply of alcohol as a predictor of adolescent alcohol consumption patterns: A prospective cohort"
 ---

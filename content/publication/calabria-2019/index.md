@@ -23,7 +23,8 @@ publication_types:
 publishDate: "2019-09-16T00:00:00Z"
 summary: Results of a pilot study of the Community Reinforcement Approach (CRA) to reducing drug and alcohol use.
 tags:
-- Source Themes
+- Drug treatment
+- Pilot
 url_source: "https://onlinelibrary.wiley.com/doi/full/10.1002/ijop.12603"
 title: "Reducing drug and alcohol use and improving well‐being for Indigenous and non‐Indigenous Australians using the Community Reinforcement Approach: A feasibility and acceptability study"
 ---

@@ -33,7 +33,8 @@ publication_types:
 publishDate: "2019-09-16T00:00:00Z"
 summary: A study examining associations between postnatal bonding, maternal mental health, and substance use at 8-weeks postpartum, and mother–infant bonding and mother emotional availability at 12-months of age.
 tags:
-- Source Themes
+- Postnatal health
+- Longitudinal cohort study
 url_source: "https://link.springer.com/article/10.1007/s10995-019-02809-1"
 title: "Mother–Infant Bonding and Emotional Availability at 12-Months of Age: The Role of Early Postnatal Bonding, Maternal Substance Use and Mental Health"
 ---

@@ -21,7 +21,9 @@ publication_types:
 publishDate: "2018-07-31T00:00:00Z"
 summary: An analysis of the association between parental supply of alcohol and drinking pattersn across adolescence.
 tags:
-- Source Themes
+- Multiculturalism
+- Drug use
+- Cross-sectional study
 url_source: "https://www.tandfonline.com/doi/abs/10.1080/15332640.2018.1484310"
 title: "What is the alcohol, tobacco, and other drug prevalence among culturally and linguistically diverse groups in the Australian population? A national study of prevalence, harms, and attitudes"
 ---

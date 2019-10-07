@@ -32,7 +32,8 @@ publication_types:
 publishDate: "2019-09-16T00:00:00Z"
 summary: Analysis of the use of needle-syringe programs by men who use performance enhacing drugs.
 tags:
-- Source Themes
+- Methamphetamines
+- Longitudinal trend analysis
 url_source: "https://onlinelibrary.wiley.com/doi/full/10.1111/dar.12908"
 title: "Trends in PIEDs use among male clients of needle-syringe programs in Queensland, Australia; 2007-2015."
 ---

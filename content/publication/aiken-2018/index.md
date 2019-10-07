@@ -35,5 +35,7 @@ publication_types:
 publishDate: "2017-11-21T00:00:00Z"
 summary: Analysis of the impact of earlier initiation to alcohol consumption.
 tags:
-- Source Themes
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
 ---

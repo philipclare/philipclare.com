@@ -37,5 +37,6 @@ publication_types:
 publishDate: "2017-08-30T00:00:00Z"
 summary: Description of a cohort of low socio-economic status smokers in Australia.
 tags:
-- Source Themes
+- Smoking
+- Descriptive study
 ---

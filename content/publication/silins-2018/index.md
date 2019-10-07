@@ -48,7 +48,9 @@ publication_types:
 publishDate: "2018-05-10T00:00:00Z"
 summary: The associations of adolescent drinking and adult alcohol-related harms, from four longitudinal australian cohorts.
 tags:
-- Source Themes
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
 url_source: "https://onlinelibrary.wiley.com/doi/abs/10.1111/add.14263"
 title: "Adverse adult consequences of different alcohol use patterns in adolescence: an integrative analysis of data to age 30 years from four Australasian cohorts"
 ---

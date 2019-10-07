@@ -25,7 +25,8 @@ publication_types:
 publishDate: "2018-10-24T00:00:00Z"
 summary: An overview and systematic review of methods for handling exposure-affected time-varying confounding.
 tags:
-- Source Themes
+- Causal inference
+- Systematic review
 url_source: "https://www.sciencedirect.com/science/article/pii/S0376871619302881"
 title: "Causal models adjusting for time-varying confounding—a systematic review of the literature "
 ---
