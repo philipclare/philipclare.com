@@ -37,7 +37,7 @@ social:
   icon_pack: ai
   link: https://scholar.google.com.au/citations?user=Q-dMOXsAAAAJ&hl
 - icon: orcid
-  icon_pack: fab
+  icon_pack: ai
   link: https://orcid.org/0000-0002-2009-7386
 - icon: github
   icon_pack: fab
