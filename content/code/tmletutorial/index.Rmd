@@ -1,5 +1,24 @@
-# Targeted Maximum Likelihood Estimation to adjust for time-varying confounding – a tutorial paper
-## R Markdown and Analysis Code
+---
+authors:
+- admin
+weight: 1
+categories: []
+date: "2016-04-20T00:00:00Z"
+draft: false
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ""
+  placement: 2
+  preview_only: false
+lastmod: "2019-04-17T00:00:00Z"
+projects: []
+tags:
+- Academic
+title: 'Targeted Maximum Likelihood Estimation to adjust for time-varying confounding – a tutorial paper'
+subtitle: 'R Markdown and Analysis Code'
+summary: R Markdown and Analysis Code
+---
 
 This repository contains data and a number of snippets of R code, used in the TMLE tutorial by Clare, Dobbins, Bruno and Mattick.
 
@@ -15,3 +34,4 @@ The longitudinal dataset, [ldata.RData](/ldata.RData), is also included in the r
 1. Sofrygin O, van der Laan Mark J, Neugebauer R. simcausal R Package: Conducting Transparent and Reproducible Simulation Studies of Causal Effect Estimation with Complex Longitudinal Data. Journal of Statistical Software. 2017;81(2):1-47.
 2. Gruber S, van der Laan MJ. tmle: An R Package for Targeted Maximum Likelihood Estimation. Journal of Statistical Software. 2012;51(13):1-35.
 3. Lendle SD, Schwab J, Petersen ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
+ Petersen ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.

@@ -1,5 +1,24 @@
-# Comparison of methods of adjusting for time-varying confounding with missing data – A Monte-Carlo simulation study
-## Stata and R Analysis Code
+---
+authors:
+- admin
+weight: 1
+categories: []
+date: "2016-04-20T00:00:00Z"
+draft: false
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ""
+  placement: 2
+  preview_only: false
+lastmod: "2019-04-17T00:00:00Z"
+projects: []
+tags:
+- Academic
+title: 'Comparison of methods of adjusting for time-varying confounding with missing data – A Monte-Carlo simulation study'
+subtitle: 'Stata and R Analysis Code'
+summary: Stata and R Analysis Code
+---
 
 This repository contains the Stata and R code used in the missing data simulation by Clare et al. 2019
 
@@ -11,4 +30,4 @@ Analysis code runs all analyses on those datasets, and saves the results. Note t
 | S1 - Data creation of Dataset 1 - Stata Code | [Data creation code](Code/S1_data_creation_dataset1.do) |
 | S2 - Data creation of Dataset 2 - Stata Code | [Data creation code](Code/S2_data_creation_dataset2.do) |
 | S3 - Data creation of Dataset 3 - Stata Code | [Data creation code](Code/S3_data_creation_dataset3.do) |
-| S4 - Analysis - R Code | [Analysis code](Code/S4_analysis_code.R) |
+| S4 - Analysis - R Code | [Analysis code](Code/S4_analysis_code.R) |en ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.

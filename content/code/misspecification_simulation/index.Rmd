@@ -1,5 +1,24 @@
-# Comparison of methods of adjusting for time-varying confounding under misspecification – A Monte-Carlo simulation study
-## Stata and R Analysis Code
+---
+authors:
+- admin
+weight: 1
+categories: []
+date: "2016-04-20T00:00:00Z"
+draft: false
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ""
+  placement: 2
+  preview_only: false
+lastmod: "2019-04-17T00:00:00Z"
+projects: []
+tags:
+- Academic
+title: 'Comparison of methods of adjusting for time-varying confounding under misspecification – A Monte-Carlo simulation study'
+subtitle: 'Stata and R Analysis Code'
+summary: Stata and R Analysis Code
+---
 
 This repository contains the Stata and R code used in the misspecification simulation by Clare et al. 2019
 
@@ -15,3 +34,4 @@ Two types of standard error estimates were used, so two sets of analysis code ar
 | S2 - Analysis with model-based/influence curve SEs - R Code | [Analysis code - Alternative](Code/S3_analysis_code_IC.R) |
 
 
+, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
