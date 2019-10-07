@@ -1,23 +1,23 @@
 ---
-authors:
-- admin
-weight: 1
-categories: []
-date: "2016-04-20T00:00:00Z"
-draft: false
-featured: false
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-  placement: 2
-  preview_only: false
-lastmod: "2019-04-17T00:00:00Z"
-projects: []
-tags:
-- Academic
 title: 'Targeted Maximum Likelihood Estimation to adjust for time-varying confounding – a tutorial paper'
 subtitle: 'R Markdown and Analysis Code'
 summary: R Markdown and Analysis Code
+authors:
+- admin
+tags:
+- Academic
+categories:
+- Demo
+date: "2018-12-04T00:00:00Z"
+lastmod: "2018-12-03T00:00:00Z"
+featured: false
+draft: false
+image:
+  placement: 2
+  caption: ""
+  focal_point: ""
+  preview_only: false
+projects: []
 ---
 
 This repository contains data and a number of snippets of R code, used in the TMLE tutorial by Clare, Dobbins, Bruno and Mattick.

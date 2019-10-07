@@ -1,23 +1,23 @@
 ---
-authors:
-- admin
-weight: 1
-categories: []
-date: "2016-04-20T00:00:00Z"
-draft: false
-featured: false
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-  placement: 2
-  preview_only: false
-lastmod: "2019-04-17T00:00:00Z"
-projects: []
-tags:
-- Academic
 title: 'The association between alcohol use and pain in people with chronic non-cancer pain prescribed pharmaceutical opioids – a prospective cohort study'
 subtitle: 'R Analysis Code'
 summary: R Analysis Code
+authors:
+- admin
+tags:
+- Academic
+categories:
+- Demo
+date: "2019-03-14T00:00:00Z"
+lastmod: "2019-06-20T00:00:00Z"
+featured: false
+draft: false
+image:
+  placement: 2
+  caption: ""
+  focal_point: ""
+  preview_only: false
+projects: []
 ---
 
 This repository contains R code used in the TMLE analysis of POINT data on the effect of alcohol exposure on chronic pain, by Clare et al. 2019

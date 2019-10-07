@@ -1,23 +1,23 @@
 ---
-authors:
-- admin
-weight: 1
-categories: []
-date: "2016-04-20T00:00:00Z"
-draft: false
-featured: false
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-  placement: 2
-  preview_only: false
-lastmod: "2019-04-17T00:00:00Z"
-projects: []
-tags:
-- Academic
 title: 'Comparison of methods of adjusting for time-varying confounding under misspecification – A Monte-Carlo simulation study'
 subtitle: 'Stata and R Analysis Code'
 summary: Stata and R Analysis Code
+authors:
+- admin
+tags:
+- Academic
+categories:
+- Demo
+date: "2019-03-15T00:00:00Z"
+lastmod: "2019-03-22T00:00:00Z"
+featured: false
+draft: false
+image:
+  placement: 2
+  caption: ""
+  focal_point: ""
+  preview_only: false
+projects: []
 ---
 
 This repository contains the Stata and R code used in the misspecification simulation by Clare et al. 2019
