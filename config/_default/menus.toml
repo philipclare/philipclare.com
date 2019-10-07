@@ -2,7 +2,6 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
-
   
 [[main]]
   name = "Publications"
@@ -15,8 +14,8 @@
    weight = 40
 
 #[[main]]
-#   name = "CV"
-#   url = "files/contact.pdf"
+#   name = "Code"
+#   url = "/code"
 #   weight = 50
 
 [[main]]
