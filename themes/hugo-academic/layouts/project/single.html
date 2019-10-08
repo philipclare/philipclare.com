@@ -65,7 +65,7 @@
       {{ end }}
     {{ end }}
 
-    {{ $items := where (where site.RegularPages "Type" "code") ".Params.projects" "intersect" (slice $project) }}
+    {{ $items := where (where site.Pages "Type" "code") ".Params.projects" "intersect" (slice $project) }}
     {{ $code_len := len $items }}
     {{ if ge $code_len 1 }}
       <h2>{{ (i18n "code") }}</h2>
