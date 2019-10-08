@@ -65,6 +65,21 @@
       {{ end }}
     {{ end }}
 
+    {{ $items := where (where site.RegularPages "Type" "code") ".Params.projects" "intersect" (slice $project) }}
+    {{ $code_len := len $items }}
+    {{ if ge $code_len 1 }}
+      <h2>{{ (i18n "code") }}</h2>
+      {{ range $items }}
+        {{ if eq site.Params.projects.code_view 1 }}
+          {{ partial "li_list" . }}
+        {{ else if eq site.Params.projects.code_view 3 }}
+          {{ partial "li_card" . }}
+        {{ else }}
+          {{ partial "li_compact" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
   </div>
 </article>
 
