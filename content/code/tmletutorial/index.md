@@ -23,14 +23,14 @@ projects:
 
 This repository contains data and a number of snippets of R code, used in the TMLE tutorial by Clare, Dobbins, Bruno and Mattick.
 
-| Description | Markdown | R-code |
-| --- | --- | --- |
-| Creating the longitudinal dataset used in example analyses. Data creation is done using the package 'simcausal' (1). | [Data Creation Markdown](https://philipclare.github.io/tmletutorial/Markdown/data-creation.nb.html) | [Data Creation Code](https://philipclare.github.io/tmletutorial/Code/data-creation.R) |
-| Cross-sectional TMLE analysis, both manually and using the package 'tmle' (2). | [Cross-sectional Analysis Markdown](https://philipclare.github.io/tmletutorial/Markdown/cross-sectional.nb.html) | [Cross-sectional Analysis Code](https://philipclare.github.io/tmletutorial/Code/cross-sectional.R) |
-| Longitudinal TMLE with a single outcome measurement, both manually and using the package 'ltmle' (3). | [Single Outcome Longitudinal Markdown](https://philipclare.github.io/tmletutorial/Markdown/long-single-y.nb.html) | [Single Outcome Longitudinal Code](https://philipclare.github.io/tmletutorial/Code/long-single-y.R) |
-| Longitudinal TMLE with a repeated outcome measurement, both manually and using the package 'ltmle' (3). | [Repeated Outcome Longitudinal Markdown](https://philipclare.github.io/tmletutorial/Markdown/long-repeated-y.nb.html) | [Repeated Outcome Longitudinal Code](https://philipclare.github.io/tmletutorial/Code/long-repeated-y.R) |
+| Description | Markdown | Github R code | Download R code |
+| --- | --- | --- | --- |
+| Creating the longitudinal dataset used in example analyses. Data creation is done using the package 'simcausal' (1). | [Data Creation Markdown](https://philipclare.github.io/tmletutorial/Markdown/data-creation.nb.html) | [Data Creation Code](https://github.com/philipclare/tmletutorial/blob/master/Code/data-creation.R) | [Download code](https://philipclare.github.io/tmletutorial/Code/data-creation.R) |
+| Cross-sectional TMLE analysis, both manually and using the package 'tmle' (2). | [Cross-sectional Analysis Markdown](https://philipclare.github.io/tmletutorial/Markdown/cross-sectional.nb.html) | [Cross-sectional Analysis Code](https://github.com/philipclare/tmletutorial/blob/master/Code/cross-sectional.R) | [Download code](https://philipclare.github.io/tmletutorial/Code/cross-sectional.R) |
+| Longitudinal TMLE with a single outcome measurement, both manually and using the package 'ltmle' (3). | [Single Outcome Longitudinal Markdown](https://philipclare.github.io/tmletutorial/Markdown/long-single-y.nb.html) | [Single Outcome Longitudinal Code](https://github.com/philipclare/tmletutorial/blob/master/Code/long-single-y.R) | [Download code](https://philipclare.github.io/tmletutorial/Code/long-single-y.R) |
+| Longitudinal TMLE with a repeated outcome measurement, both manually and using the package 'ltmle' (3). | [Repeated Outcome Longitudinal Markdown](https://philipclare.github.io/tmletutorial/Markdown/long-repeated-y.nb.html) | [Repeated Outcome Longitudinal Code](https://github.com/philipclare/tmletutorial/blob/master/Code/long-repeated-y.R) | [Download code](https://philipclare.github.io/tmletutorial/Code/long-repeated-y.R) |
 
-The longitudinal dataset, [ldata.RData](/ldata.RData), is also included in the repository.
+The longitudinal dataset, [ldata.RData](https://philipclare.github.io/tmletutorial/ldata.RData), is also included in the repository: https://github.com/philipclare/tmletutorial
 
 1. Sofrygin O, van der Laan Mark J, Neugebauer R. simcausal R Package: Conducting Transparent and Reproducible Simulation Studies of Causal Effect Estimation with Complex Longitudinal Data. Journal of Statistical Software. 2017;81(2):1-47.
 2. Gruber S, van der Laan MJ. tmle: An R Package for Targeted Maximum Likelihood Estimation. Journal of Statistical Software. 2012;51(13):1-35.
