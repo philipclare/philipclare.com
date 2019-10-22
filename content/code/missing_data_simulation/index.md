@@ -28,7 +28,7 @@ Analysis code runs all analyses on those datasets, and saves the results. Note t
 
 | Description | Code |
 | --- | --- |
-| S1 - Data creation of Dataset 1 - Stata Code | [Data creation code](Code/S1_data_creation_dataset1.do) |
-| S2 - Data creation of Dataset 2 - Stata Code | [Data creation code](Code/S2_data_creation_dataset2.do) |
-| S3 - Data creation of Dataset 3 - Stata Code | [Data creation code](Code/S3_data_creation_dataset3.do) |
-| S4 - Analysis - R Code | [Analysis code](Code/S4_analysis_code.R) |en ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
+| S1 - Data creation of Dataset 1 - Stata Code | [Data creation code](https://philipclare.github.io/missing_data_simulation/Code/S1_data_creation_dataset1.do) |
+| S2 - Data creation of Dataset 2 - Stata Code | [Data creation code](https://philipclare.github.io/missing_data_simulation/Code/S2_data_creation_dataset2.do) |
+| S3 - Data creation of Dataset 3 - Stata Code | [Data creation code](https://philipclare.github.io/missing_data_simulation/Code/S3_data_creation_dataset3.do) |
+| S4 - Analysis - R Code | [Analysis code](https://philipclare.github.io/missing_data_simulation/Code/S4_analysis_code.R) |en ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
