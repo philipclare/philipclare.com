@@ -28,8 +28,8 @@ Analysis code runs all analyses on those datasets, and saves the results. Note t
 
 Two types of standard error estimates were used, so two sets of analysis code are included. The first calculates standard errors using bootstrapping. The second calculates model-based standard errors, using influence curves for TMLE.
 
-| Description | Code |
-| --- | --- |
-| S1 - Data creation Stata Code | [Data creation code](Code/S1_data_creation.do) |
-| S2 - Analysis with bootstrap SEs - R Code | [Analysis code - Bootstrap](Code/S2_analysis_code_bootstrap.R) |
-| S3 - Analysis with model-based/influence curve SEs - R Code | [Analysis code - Alternative](Code/S3_analysis_code_IC.R) |
+| Description | Github code | Download code |
+| --- | --- | --- |
+| S1 - Data creation Stata Code | [Data creation code](https://github.com/philipclare/misspecification_simulation/blob/master/Code/S1_data_creation.do) | [Download code](https://philipclare.github.io/misspecification_simulation/Code/S1_data_creation.do) |
+| S2 - Analysis with bootstrap SEs - R Code | [Analysis code - Bootstrap](https://github.com/philipclare/misspecification_simulation/blob/master/Code/S2_analysis_code_bootstrap.R) | [Download code](https://philipclare.github.io/misspecification_simulation/Code/S2_analysis_code_bootstrap.R) |
+| S3 - Analysis with model-based/influence curve SEs - R Code | [Analysis code - Alternative](https://github.com/philipclare/misspecification_simulation/blob/master/Code/S3_analysis_code_IC.R) | [Download code](https://philipclare.github.io/misspecification_simulation/Code/S3_analysis_code_IC.R) |
