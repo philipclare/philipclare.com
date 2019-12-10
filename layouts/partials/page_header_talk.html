@@ -25,7 +25,7 @@
   {{ end }}
 
   {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
-  {{< youtube w7Ft2ymGmfc >}}
+  {{ <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}}
 </div>
 {{end}}
 
