@@ -37,9 +37,8 @@ image:
   focal_point: ""
   preview_only: false
 
-video:
-  src: ""
-  embed: false
+video_src: ""
+video_embed: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
