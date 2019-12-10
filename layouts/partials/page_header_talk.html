@@ -26,10 +26,6 @@
 
   {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
 </div>
-{{ else }}
-<div class="article-header">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/i9YJapIje0I" class="article-banner" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 {{end}}
 
 {{/* Featured image layout */}}
@@ -54,6 +50,11 @@
   {{ if gt $featured.Width 720 }}
     {{ $image = $featured.Resize "720x" }}
   {{ end }}
+  
+{{ else }}
+<div class="article-header">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/i9YJapIje0I" class="article-banner" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 {{end}}
 
 <div class="article-container pt-3">
