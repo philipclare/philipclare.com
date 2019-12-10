@@ -64,7 +64,7 @@
   {{ partial "page_links_div.html" $page }}
 </div>
 
-{{ if and video.embed (and .Params.image.preview_only) }}
+{{ if and .Params.video.embed (and .Params.image.preview_only) }}
 <div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-4" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px;">
   <div style="position: relative">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/i9YJapIje0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
