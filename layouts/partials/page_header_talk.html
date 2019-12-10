@@ -92,8 +92,8 @@
   {{end}}
   
   {{ $image_container := "" }}
-  <div class="article-headerarticle-header {{$image_container}}">
-    <iframe width="560" height="315" src={{ printf "%s" $.Params.video_src }} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div width="100%">
+    <iframe width="100%" src={{ printf "%s" $.Params.video_src }} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
