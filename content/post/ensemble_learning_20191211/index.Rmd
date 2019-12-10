@@ -1,0 +1,43 @@
+---
+authors:
+- admin
+weight: 1
+categories:
+date: "2019-12-11T00:00:00Z"
+draft: false
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ""
+  placement: 2
+  preview_only: false
+lastmod: "2019-12-11T00:00:00Z"
+projects: []
+
+tags:
+- Academic
+title: 'Ensemble Learning'
+subtitle: 'A comparison of the SuperLearner and Caret Ensemble learner algorithms'
+summary: An exploration of ensemble machine learning algorithms, with examples using publically available data.
+---
+
+## Overview
+
+Machine learning is increasingly common, and there are a huge number of algorithms and implementations that can be used in ML applications.
+
+However, sometimes the best algorithm isn't obvious, or there may in fact be no single algorithm able to adequately model the entire prediction space.
+
+Ensemble Learning involves running a range of machine learning algorithms, and then combining the best predictions from each of them to create the best possible algorithm to fit the data.
+
+There are a range of ensemble learners, but I'll focus on two relatively common ones:
+  - Caret Ensemble
+  - SuperLearner
+  
+This post will consider the differences between Caret and SuperLearner, and present a comparison of the two algorithms using a couple of different datasets:
+
+  - Sonar dataset (from the 'mlbench' package)
+  - Boston housing dataset (from the 'MASS' package)
+
+# Setup
+
+First, I'll load all the packages I'm going to need.
