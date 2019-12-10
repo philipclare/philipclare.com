@@ -18,7 +18,9 @@ image:
   caption: 'Image credit: [**NDARC**](https://d1m8gswelyy0gk.cloudfront.net/sites/default/files/styles/large/public/ndarc/events/Seminar%20audience%20500_1.jpg?itok=20-wAm-I)'
   focal_point: ""
   preview_only: true
-video: "i9YJapIje0I"
+video: 
+  src: "i9YJapIje0I"
+  embed: true
 links:
 location: NDARC
 math: true
