@@ -91,8 +91,8 @@
     {{ partial "page_links_div.html" $page }}
   {{end}}
   
-  <div style="position: relative">
-    <iframe width="560" height="315" src={{ printf "%s" $.Params.video_src }} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div>
+    <iframe width="560" height="315" src={{ printf "%s" .Params.video_src }} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
