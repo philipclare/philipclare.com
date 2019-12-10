@@ -53,8 +53,6 @@
   
 {{end}}
 
-{{ $video_container := "" }}
-
 <div class="article-container pt-3">
   <h1>{{ $title }}</h1>
 
@@ -93,7 +91,8 @@
     {{ partial "page_links_div.html" $page }}
   {{end}}
   
-  <div class="article-headerarticle-header {{$video_container}}">
+  {{ $image_container := "" }}
+  <div class="article-headerarticle-header {{$image_container}}">
     <iframe width="560" height="315" src={{ printf "%s" $.Params.video_src }} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
