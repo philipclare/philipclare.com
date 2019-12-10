@@ -64,10 +64,10 @@
   {{ partial "page_links_div.html" $page }}
 </div>
 
-{{ if and .Params.video.embed (and .Params.image.preview_only) }}
+{{ if .Params.video.embed }}
 <div class="article-header">
   <div style="position: relative">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/i9YJapIje0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i9YJapIje0I" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 {{ end }}
