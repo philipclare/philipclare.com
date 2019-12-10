@@ -90,12 +90,9 @@
     {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
     {{ partial "page_links_div.html" $page }}
   {{end}}
-</div>
-
-{{ if Params.video.embed }}
   <div style="position: relative">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/i9YJapIje0I" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-{{ end }}
+</div>
 
 {{end}}
