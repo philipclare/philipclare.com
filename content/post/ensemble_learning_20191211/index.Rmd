@@ -9,7 +9,7 @@ image:
   placement: 2
   preview_only: yes
 lastmod: '2019-12-11T00:00:00Z'
-draft: no
+draft: false
 projects: []
 subtitle: A comparison of the SuperLearner and Caret Ensemble learner algorithms
 summary: An exploration of ensemble machine learning algorithms, with examples using
