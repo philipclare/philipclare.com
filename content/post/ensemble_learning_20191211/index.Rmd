@@ -1,22 +1,21 @@
 ---
 title: "Ensemble Learning"
-categories: null
-date: '2019-12-11T00:00:00Z'
+author: admin
+date: '2019-12-19'
+slug: []
+categories: []
+tags: [Machine learning]
+subtitle: 'A comparison of the SuperLearner and Caret Ensemble learner algorithms'
+summary: 'An exploration of ensemble machine learning algorithms, with examples using publically available data.'
+authors: []
+lastmod: '2019-12-19T10:43:40+11:00'
 featured: no
 image:
   caption: 'Image credit: [Towards Data Science](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)'
   focal_point: center
   placement: 2
   preview_only: yes
-lastmod: '2019-12-11T00:00:00Z'
-draft: false
 projects: []
-subtitle: A comparison of the SuperLearner and Caret Ensemble learner algorithms
-summary: An exploration of ensemble machine learning algorithms, with examples using
-  publically available data.
-tags: Machine learning
-authors: admin
-weight: 1
 ---
 
 # Overview
