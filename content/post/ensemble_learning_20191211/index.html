@@ -1,22 +1,21 @@
 ---
 title: "Ensemble Learning"
-categories: null
-date: '2019-12-11T00:00:00Z'
+author: admin
+date: '2019-12-19'
+slug: []
+categories: []
+tags: [Machine learning]
+subtitle: 'A comparison of the SuperLearner and Caret Ensemble learner algorithms'
+summary: 'An exploration of ensemble machine learning algorithms, with examples using publically available data.'
+authors: []
+lastmod: '2019-12-19T10:43:40+11:00'
 featured: no
 image:
   caption: 'Image credit: [Towards Data Science](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)'
   focal_point: center
   placement: 2
   preview_only: yes
-lastmod: '2019-12-11T00:00:00Z'
-draft: false
 projects: []
-subtitle: A comparison of the SuperLearner and Caret Ensemble learner algorithms
-summary: An exploration of ensemble machine learning algorithms, with examples using
-  publically available data.
-tags: Machine learning
-authors: admin
-weight: 1
 ---
 
 
@@ -152,10 +151,10 @@ So lets load in the data and get it ready for analysis.</p>
 ## 
 ## 
 ##                     Risk       Coef
-## SL.glm_All    0.28947368 0.05783597
-## SL.glmnet_All 0.20789474 0.02025591
-## SL.ranger_All 0.07335526 0.80764706
-## SL.nnet_All   0.26669408 0.11426106</code></pre>
+## SL.glm_All    0.26212395 0.07681229
+## SL.glmnet_All 0.17688640 0.23150633
+## SL.ranger_All 0.08490876 0.30772924
+## SL.nnet_All   0.24806839 0.38395214</code></pre>
 </div>
 <div id="sonar-data---caret" class="section level2">
 <h2>Sonar Data - Caret</h2>
@@ -193,14 +192,14 @@ Firstly, have to put the data back to how it was - Caret and SL use different da
 <pre class="r"><code>  summary(Sonar.caretens)</code></pre>
 <pre><code>## The following models were ensembled: glm, glmnet, ranger, nnet 
 ## They were weighted: 
-## -3.3653 -0.0672 -0.1564 6.4091 0.5374
+## -1.8062 0.0875 1.5709 1.9284 -0.0704
 ## The resulting ROC is: 0.5
 ## The fit for each individual model on the ROC is: 
 ##  method       ROC      ROCSD
-##     glm 0.5425644 0.09411600
-##  glmnet 0.7327852 0.03570756
-##  ranger 0.7892726 0.03690858
-##    nnet 0.7081577 0.06065064</code></pre>
+##     glm 0.5414693 0.06702525
+##  glmnet 0.7224958 0.09883184
+##  ranger 0.7487948 0.07919999
+##    nnet 0.6634760 0.11176435</code></pre>
 </div>
 <div id="sonar-data---superlearner-vs-caret-comparison" class="section level2">
 <h2>Sonar Data - SuperLearner vs Caret Comparison</h2>
@@ -218,22 +217,22 @@ and benchmark them against the holdout data.</p>
   Sonar.corr</code></pre>
 <pre><code>##                  H    SL CT
 ## Holdout          1         
-## SuperLearner 0.711     1   
-## Caret        0.718 0.967  1</code></pre>
+## SuperLearner 0.725     1   
+## Caret        0.694 0.883  1</code></pre>
 <p>And we can compare area under the curve from each</p>
 <pre class="r"><code>  Sonar.SL_rocr = ROCR::prediction(Sonar.predSL$pred, Sonar.test$Class)
   Sonar.SLauc = ROCR::performance(Sonar.SL_rocr, measure = &quot;auc&quot;, x.measure = &quot;cutoff&quot;)@y.values[[1]]
   Sonar.caret_rocr = ROCR::prediction(Sonar.predCT, Sonar.test$Class)
   Sonar.caretauc = ROCR::performance(Sonar.caret_rocr, measure = &quot;auc&quot;, x.measure = &quot;cutoff&quot;)@y.values[[1]]
   Sonar.SLauc</code></pre>
-<pre><code>## [1] 0.09984639</code></pre>
+<pre><code>## [1] 0.071875</code></pre>
 <pre class="r"><code>  Sonar.caretauc</code></pre>
-<pre><code>## [1] 0.08141321</code></pre>
+<pre><code>## [1] 0.0859375</code></pre>
 <p>Finally, the time it took to run each ensemble.</p>
 <pre class="r"><code>  Sonar.SL.end-Sonar.SL.start</code></pre>
-<pre><code>## Time difference of 8.195905 secs</code></pre>
+<pre><code>## Time difference of 6.352888 secs</code></pre>
 <pre class="r"><code>  Sonar.caret.end-Sonar.caret.start</code></pre>
-<pre><code>## Time difference of 11.52366 secs</code></pre>
+<pre><code>## Time difference of 10.85402 secs</code></pre>
 </div>
 </div>
 <div id="boston-data" class="section level1">
@@ -295,23 +294,23 @@ The boston data has n=506 (train=380; test=126), with 13 variables.</p>
 ## 
 ## 
 ## 
-##                     Risk        Coef
-## SL.glm_All    0.08140944 0.067358717
-## SL.glmnet_All 0.08005638 0.254399522
-## SL.ranger_All 0.05338971 0.674498948
-## SL.nnet_All   0.40913319 0.003742813</code></pre>
+##                     Risk       Coef
+## SL.glm_All    0.06702511 0.26327366
+## SL.glmnet_All 0.06508276 0.00000000
+## SL.ranger_All 0.04413917 0.66450037
+## SL.nnet_All   0.30943869 0.07222597</code></pre>
 <p>And results for Caret:</p>
 <pre class="r"><code>  summary(Boston.caretens)</code></pre>
 <pre><code>## The following models were ensembled: glm, glmnet, ranger, nnet 
 ## They were weighted: 
-## -3.0647 0.7497 1.2144 4.1176 0.1153
+## 3.1229 -0.4769 -2.041 -3.5993 -0.149
 ## The resulting ROC is: 0.5
 ## The fit for each individual model on the ROC is: 
 ##  method       ROC      ROCSD
-##     glm 0.7662528 0.04689101
-##  glmnet 0.8896098 0.02586706
-##  ranger 0.8999362 0.01844625
-##    nnet 0.8300595 0.06722140</code></pre>
+##     glm 0.7978099 0.04715403
+##  glmnet 0.9003462 0.02555691
+##  ranger 0.9082484 0.02521218
+##    nnet 0.8237284 0.03556459</code></pre>
 </div>
 <div id="boston-data---superlearner-vs-caret-comparison" class="section level2">
 <h2>Boston Data - SuperLearner vs Caret Comparison</h2>
@@ -327,20 +326,20 @@ The boston data has n=506 (train=380; test=126), with 13 variables.</p>
   rownames(Boston.corr) &lt;- c(&quot;Holdout&quot;,&quot;SuperLearner&quot;,&quot;Caret&quot;)</code></pre>
 <p>As before, we can compare predictions:</p>
 <pre class="r"><code>  Boston.corr</code></pre>
-<pre><code>##                   H     SL CT
-## Holdout           1          
-## SuperLearner  0.899      1   
-## Caret        -0.894 -0.992  1</code></pre>
+<pre><code>##                  H    SL CT
+## Holdout          1         
+## SuperLearner 0.838     1   
+## Caret        0.839 0.991  1</code></pre>
 <p>Area under the curve:</p>
 <pre class="r"><code>  Boston.SLauc</code></pre>
-<pre><code>## [1] 0.9911009</code></pre>
+<pre><code>## [1] 0.9625</code></pre>
 <pre class="r"><code>  Boston.caretauc</code></pre>
-<pre><code>## [1] 0.01195017</code></pre>
+<pre><code>## [1] 0.9637755</code></pre>
 <p>And time taken:</p>
 <pre class="r"><code>  Boston.SL.end-Boston.SL.start</code></pre>
-<pre><code>## Time difference of 4.887215 secs</code></pre>
+<pre><code>## Time difference of 3.830773 secs</code></pre>
 <pre class="r"><code>  Boston.caret.end-Boston.caret.start</code></pre>
-<pre><code>## Time difference of 10.46882 secs</code></pre>
+<pre><code>## Time difference of 10.22827 secs</code></pre>
 </div>
 </div>
 <div id="final-thoughts" class="section level1">
