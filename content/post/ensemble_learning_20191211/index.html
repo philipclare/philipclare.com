@@ -1,26 +1,368 @@
 ---
-authors:
-- admin
-weight: 1
-categories:
-- Demo
-date: "2016-04-20T00:00:00Z"
-draft: false
-featured: false
+title: "Ensemble Learning"
+categories: null
+date: '2019-12-11T00:00:00Z'
+featured: no
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
+  caption: 'Image credit: [Towards Data Science](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)'
+  focal_point: center
   placement: 2
-  preview_only: false
-lastmod: "2019-04-17T00:00:00Z"
+  preview_only: yes
+lastmod: '2019-12-11T00:00:00Z'
+draft: no
 projects: []
-subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
-summary: Create a beautifully simple website in under 10 minutes.
-tags:
-- Academic
-title: 'All about series 1 here!'
+subtitle: A comparison of the SuperLearner and Caret Ensemble learner algorithms
+summary: An exploration of ensemble machine learning algorithms, with examples using
+  publically available data.
+tags: Machine learning
+authors: admin
+weight: 1
 ---
 
 
 
-<p>All about series 1 here!</p>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<p>Machine learning is increasingly common, and there are a huge number of algorithms and implementations that can be used in ML applications.</p>
+<p>Increasingly, I find myself using machine learning, and ensemble learning specifically, via other packages and estimation commands, but with little thought about what exactly it is doing and how. As an example, the package ‘tmle’ in R, which is a package that estimates causal effects using targeted maximum likelihood estimation, uses SuperLearner to estimate it’s component models by default. And while it is definitely possible to take control of how it uses SuperLearner, it is very easy to simply allow it to use it’s default settings (which, interestingly, aren’t necessarily the default settings of the actual SuperLearner package). That makes me a bit uneasy, so I started looking into how SuperLearner works, and how to better use it when estimating TMLE models.</p>
+<p>In doing so, I also came across another ensemble machine learning package, Caret. This piqued my interest, so in addition to playing around with SuperLearner, I decided to run my models using Caret, and see how they stack up against each other. Because I was only neck-deep in my PhD, and clearly had SO MUCH spare time.</p>
+<p>This certainly isn’t comprehensive, and I’ll link to a range of resources at the end of this post which give more detail on fitting these models, but I thought it would be interesting to walk through the basics of how they work, and compare them to each other.</p>
+<div id="what-is-ensemble-machine-learning" class="section level2">
+<h2>What is ensemble machine learning</h2>
+<p>For anyone new to this, ensemble Learning involves running a range of (machine learning) algorithms, and then combining the best predictions from each of them to create the best possible algorithm to fit the data, given the library of algorithms used.</p>
+<p>So, for example, the goal might be to creat the best possibly prediction of an outcome, which could typically be done using a number of different approaches - generalised linear models, random forests, boosted models, neural networks, etc. Ensemble machine learning takes the idea of using one of these methods to create a predictive model and extends it by saying “lets run all of them and make a model that uses the best bits of each”.</p>
+<p>At least in theory, this means that an ensemble will <strong>at worst</strong> perform as well as the best performing individual algorithm used, and <strong>at best</strong> will perform substantially better than any one algorithm.</p>
+</div>
+<div id="specification" class="section level2">
+<h2>Specification</h2>
+<p>Specifying SuperLearner is pretty straightforward, for the most part - it runs in a single command, with all options passed through using that command. That includes the number of cross-folds, and the algorithms to use. Algorithms are passed via wrapper functions - there are a number of wrapper functions pre-defined, and it is possible to create new wrapper functions too.
+It’s worth noting that, unlike, say, GLMs, where the model typically takes its inputs as a dataframe, with the model defined by a formula, SuperLearner explicitly requires the outcome to be a numeric vector, with predictors typically in the form of a data frame. Not a big deal, but important to remember to remove the outcome variable if using a data frame for the predictors!</p>
+<p>Caret specification is a bit more involved - although in some ways that’s a good thing. SuperLearner, while potentially relatively simple, can end up being a really long, overly complicated command with lots of parts. By comparison, Caret is specified by first defining a ‘control’ function, which defines how the model should be trained - this is where the number of cross-folds is defined, among other things. Then we define a function with the methods to be used, both in terms of the algorithms we want Caret to evaluate, and also the method it should use to do so (eg. ROC curves). Finally, we pass all that to the caretEnsemble function, which trains and evaluates the models.</p>
+<p>To some extent, SL can also be specified like this - with a series of control parameters set and then called by the SL function. So maybe it’s just a personal thing - but it <strong>feels</strong> like Caret requires more setting up and manual control than SL.</p>
+</div>
+<div id="tuning-parameters" class="section level2">
+<h2>Tuning parameters</h2>
+<p>Typically, machine learning algorithms have a range of tuning hyperparameters which determine how they perform. For example, random forests has a number of tuning hyperparameters including the maximum depth of the trees and the number of variable to attempt to split at each level. A strength of machine learning is that it allows a range of different hyperparameter values to be tested, with the best performing set of hyperparameters. The same is true of ensemble machine learning - only now we are using a number of different algorithms, each with it’s own set of parameters.</p>
+<p>The way this is handled is quite different between SuperLearner and Caret. In SuperLearner, algorithms are passed to the learner and then combined at the end - this can include any number of different sets of hyperparameters - but they are defined prior to running the model. So, for example, I might create a set of randomforest wrappers with various values for the max-depth tuning hyperparameter, and pass all of them to the SuperLearner. These are then evaluated, and given a weight based on how they perform. Which is not to say SL will include them, necessarily - it can give them a weight of 0 - but rather that it <strong>can</strong> include them.</p>
+<p>By contrast, Caret evaluates the hyperparameters of each algorithm and selects the best performing set of hyperparameters.</p>
+<p>In simpler terms, Caret would in this case use the <strong>best</strong> performing random forest algorithm, while SuperLeaner will use <strong>all</strong> versions, but give more <strong>weight</strong> to the best performing version.</p>
+<p>It is worth mentioning that I am not really going into outer cross-validation here - where a second set of cross-validation is conducted to determine the best set of hyperparameters, and then those are used for an inner cross-validation of the predictive models themselves. I might get into that later, but for now it lands firmly in the ‘too hard’ basket.</p>
+</div>
+</div>
+<div id="examples" class="section level1">
+<h1>Examples</h1>
+<p>To show how they work in practice, and compare them side-by-side, I’m going to run some models using some publically available data. Namely:</p>
+<ul>
+<li>Sonar dataset (from the ‘mlbench’ package)</li>
+<li>Boston housing dataset (from the ‘MASS’ package)</li>
+</ul>
+<p>For brevity, I’ll truncate some of the output of the analysis because it gets rather long, but I’ll include all the code so you can run it yourself and see what it produces, if you like.</p>
+<div id="setup" class="section level2">
+<h2>Setup</h2>
+<p>First, I’ll load all the packages I’m going to need.</p>
+<pre class="r"><code>  library(&quot;nnls&quot;)
+  library(&quot;SuperLearner&quot;)
+  library(&quot;ggplot2&quot;)
+  library(&quot;caret&quot;)
+  library(&quot;caretEnsemble&quot;)
+  library(&quot;haven&quot;)
+  library(&quot;foreach&quot;)
+  library(&quot;glmnet&quot;)
+  library(&quot;randomForest&quot;)
+  library(&quot;rpart&quot;)
+  library(&quot;gbm&quot;)
+  library(&quot;gplots&quot;)
+  library(&quot;ROCR&quot;)
+  library(&quot;data.table&quot;)
+  library(&quot;cvAUC&quot;)
+  library(&quot;xtable&quot;)
+  library(&quot;mlbench&quot;)
+  library(&quot;e1071&quot;)</code></pre>
+</div>
+<div id="define-ml-libraries" class="section level2">
+<h2>Define ML libraries</h2>
+<p>Ensemble learning algorithms can use just about any ML algorithms you’d like. But for simplicity, I will use four algorithms in my ensembles:
+- GLMs
+- Lasso/Ridge via the ‘glmnet’ package
+- Random forests via the ‘ranger’ package
+- Neural networks via the ‘nnet’ package</p>
+<pre class="r"><code>  sl.lib=c(&quot;SL.glm&quot;,&quot;SL.glmnet&quot;,&quot;SL.ranger&quot;,&quot;SL.nnet&quot;)
+  caret.lib=c(&quot;glm&quot;,&quot;glmnet&quot;,&quot;ranger&quot;,&quot;nnet&quot;)</code></pre>
+</div>
+<div id="define-holdout-data-percentage" class="section level2">
+<h2>Define holdout data percentage</h2>
+<p>For each dataset, I’m going to separate off 25% of the data for external
+validation.
+And I’m going to use 10-fold cross-validation, using pre-defined folds
+so that both methods are using the same folds.</p>
+<pre class="r"><code>  # Define train/test percentage; set at 75% train/25% test  
+  trainpct &lt;- 0.75
+  # set k number of cross-fold validations
+  kfolds &lt;- 10 </code></pre>
+</div>
+<div id="set-up-parallel-processing" class="section level2">
+<h2>Set up parallel processing</h2>
+<p>One more thing - machine learning can be pretty slow, so I’m gonna use parallel processing. Actually, these data sets are pretty small and it probably isn’t really necessary - but I think with any real application I would want to use parallel processing, so I thought I might as well.</p>
+<p>I’m using windows, so I have to use ‘snow’, which is annoying, but is basically just a bit more involved than FORK clusters on linux/unix/macOs would be. Snow creates each node as a blank environment, so I need to explicitly load packages in each cluster node and so on - whereas in a FORK cluster each node would be created with the same environment as the global environment, so this wouldn’t be necessary.</p>
+<pre class="r"><code>  cluster &lt;- parallel::makeCluster(3)
+  parallel::clusterEvalQ(cluster, setwd(&quot;C:/Users/z3312911/cloudstor&quot;))
+  parallel::clusterEvalQ(cluster, .libPaths(&quot;C:/Users/z3312911/Dropbox/R Library&quot;))
+  parallel::clusterEvalQ(cluster, library(&quot;SuperLearner&quot;))
+  parallel::clusterEvalQ(cluster, library(&quot;caret&quot;))
+  parallel::clusterSetRNGStream(cluster, 202889)</code></pre>
+</div>
+</div>
+<div id="sonar-data" class="section level1">
+<h1>Sonar Data</h1>
+<div id="setup-1" class="section level2">
+<h2>Setup</h2>
+<p>So, let’s start with the Sonar Dataset from the ‘mlbench’ package.
+The Sonar data has n=208 (which once split becomes train=156; test=52). And it has 60 variables.
+So lets load in the data and get it ready for analysis.</p>
+<pre class="r"><code>  data(Sonar)
+  Sonar &lt;- Sonar[complete.cases(Sonar),] 
+  Sonar$Class&lt;-2-as.numeric(Sonar$Class) 
+
+  Sonar.train_obs &lt;- createDataPartition(y=Sonar$Class, 
+                               p=trainpct,list = FALSE)
+  
+  Sonar.train &lt;- Sonar[Sonar.train_obs,]
+  Sonar.test &lt;- Sonar[-Sonar.train_obs,]
+  
+  Sonar.folds &lt;- createFolds(Sonar.train$Class, kfolds) </code></pre>
+</div>
+<div id="sonar-data---superlearner" class="section level2">
+<h2>Sonar Data - SuperLearner</h2>
+<p>Now, lets run SuperLearner on the Caret Data.</p>
+<pre class="r"><code>  Sonar.SL.start &lt;- Sys.time()
+  Sonar.SL &lt;- snowSuperLearner(Y=Sonar.train$Class,
+    X=as.data.frame(Sonar.train[,!names(Sonar.train)%in%&quot;Class&quot;]),
+    method=&quot;method.AUC&quot;, cluster=cluster,
+    SL.library=sl.lib,family=&quot;binomial&quot;, 
+    cvControl=list(V=kfolds,validRows=Sonar.folds))
+  Sonar.SL.end &lt;- Sys.time()</code></pre>
+<p>And some results…</p>
+<pre class="r"><code>  Sonar.SL</code></pre>
+<pre><code>## 
+## Call:  
+## snowSuperLearner(cluster = cluster, Y = Sonar.train$Class, X = as.data.frame(Sonar.train[,  
+##     !names(Sonar.train) %in% &quot;Class&quot;]), family = &quot;binomial&quot;, SL.library = sl.lib,  
+##     method = &quot;method.AUC&quot;, cvControl = list(V = kfolds, validRows = Sonar.folds)) 
+## 
+## 
+## 
+##                    Risk      Coef
+## SL.glm_All    0.2024086 0.1474559
+## SL.glmnet_All 0.1910299 0.1540701
+## SL.ranger_All 0.1132060 0.3882704
+## SL.nnet_All   0.1869601 0.3102036</code></pre>
+</div>
+<div id="sonar-data---caret" class="section level2">
+<h2>Sonar Data - Caret</h2>
+<p>Caret requires a bit more setup.
+Firstly, have to put the data back to how it was - Caret and SL use different data structures.</p>
+<pre class="r"><code>  Sonar.train$Class &lt;- factor(Sonar.train$Class,
+                              labels=c(&quot;R&quot;,&quot;M&quot;))
+  Sonar.test$Class &lt;- factor(Sonar.test$Class,
+                             labels=c(&quot;R&quot;,&quot;M&quot;))</code></pre>
+<p>And then set up caret control.</p>
+<pre class="r"><code>  Sonar.my_control &lt;- trainControl(
+    method=&quot;cv&quot;,
+    number=kfolds,
+    savePredictions=&quot;final&quot;,
+    classProbs=TRUE,
+    summaryFunction=twoClassSummary,
+    index=Sonar.folds,
+    allowParallel=TRUE
+  )</code></pre>
+<p>And now we can define the algorithms and run the Caret Ensemble.</p>
+<p>Caret produces a lot of process output (with weights, convergence, etc), which I’m going to hide from this post just because it is too long - but it is useful information when actually using the ensemble to fit models.</p>
+<pre class="r"><code>  Sonar.caret.start &lt;- Sys.time()
+  Sonar.model_list &lt;- caretList(
+    Class~., data=Sonar.train,
+    trControl=Sonar.my_control,
+    metric=&quot;ROC&quot;,
+    methodList=caret.lib
+  )
+  Sonar.caretens &lt;- caretEnsemble(
+    Sonar.model_list,
+    metric=&quot;ROC&quot;,
+    trControl=Sonar.my_control)
+  Sonar.caret.end &lt;- Sys.time()</code></pre>
+<p>And some results for Caret:</p>
+<pre class="r"><code>  summary(Sonar.caretens)</code></pre>
+<pre><code>## The following models were ensembled: glm, glmnet, ranger, nnet 
+## They were weighted: 
+## -1.8042 -0.1283 1.7177 1.3463 0.5075
+## The resulting ROC is: 0.5
+## The fit for each individual model on the ROC is: 
+##  method       ROC      ROCSD
+##     glm 0.5221748 0.06774105
+##  glmnet 0.7692619 0.04657349
+##  ranger 0.8171970 0.04665537
+##    nnet 0.7376789 0.03763605</code></pre>
+</div>
+<div id="sonar-data---superlearner-vs-caret-comparison" class="section level2">
+<h2>Sonar Data - SuperLearner vs Caret Comparison</h2>
+<p>Lets compare the predictions generated by the two Ensembles,
+and benchmark them against the holdout data.</p>
+<pre class="r"><code>  Sonar.predSL &lt;- predict(Sonar.SL,
+              as.data.frame(Sonar.test[,!names(Sonar.test)%in%&quot;Class&quot;]))
+  Sonar.predCT &lt;- predict(Sonar.caretens,newdata=Sonar.test,type=&quot;prob&quot;)
+  Sonar.predCT &lt;- matrix(Sonar.predCT, ncol=1)
+  Sonar.corr &lt;- round(cor(cbind(Sonar.test$Class,Sonar.predSL$pred,Sonar.predCT)),3)
+  Sonar.corr[upper.tri(Sonar.corr)]&lt;-&quot;&quot;
+  Sonar.corr &lt;- as.data.frame(Sonar.corr)
+  colnames(Sonar.corr) &lt;- c(&quot;H&quot;,&quot;SL&quot;,&quot;CT&quot;)
+  rownames(Sonar.corr) &lt;- c(&quot;Holdout&quot;,&quot;SuperLearner&quot;,&quot;Caret&quot;)
+  Sonar.corr</code></pre>
+<pre><code>##                  H    SL CT
+## Holdout          1         
+## SuperLearner 0.607     1   
+## Caret        0.695 0.932  1</code></pre>
+<p>And we can compare area under the curve from each</p>
+<pre class="r"><code>  Sonar.SL_rocr = ROCR::prediction(Sonar.predSL$pred, Sonar.test$Class)
+  Sonar.SLauc = ROCR::performance(Sonar.SL_rocr, measure = &quot;auc&quot;, x.measure = &quot;cutoff&quot;)@y.values[[1]]
+  Sonar.caret_rocr = ROCR::prediction(Sonar.predCT, Sonar.test$Class)
+  Sonar.caretauc = ROCR::performance(Sonar.caret_rocr, measure = &quot;auc&quot;, x.measure = &quot;cutoff&quot;)@y.values[[1]]
+  Sonar.SLauc</code></pre>
+<pre><code>## [1] 0.1422222</code></pre>
+<pre class="r"><code>  Sonar.caretauc</code></pre>
+<pre><code>## [1] 0.09925926</code></pre>
+<p>Finally, the time it took to run each ensemble.</p>
+<pre class="r"><code>  Sonar.SL.end-Sonar.SL.start</code></pre>
+<pre><code>## Time difference of 7.26269 secs</code></pre>
+<pre class="r"><code>  Sonar.caret.end-Sonar.caret.start</code></pre>
+<pre><code>## Time difference of 11.62204 secs</code></pre>
+</div>
+</div>
+<div id="boston-data" class="section level1">
+<h1>Boston Data</h1>
+<div id="setup-2" class="section level2">
+<h2>Setup</h2>
+<p>On to another dataset! This time the Boston Housing Dataset from the ‘MASS’ package.
+The boston data has n=506 (train=380; test=126), with 13 variables.</p>
+<pre class="r"><code>  data(Boston, package=&quot;MASS&quot;)</code></pre>
+<p>Going to skip explaining how the models are built, because they are essentially the same.</p>
+<pre class="r"><code>  Boston &lt;- Boston[complete.cases(Boston),]
+  Boston$medv &lt;- as.numeric(Boston$medv &gt; 22)
+  Boston.train_obs &lt;- createDataPartition(y = Boston$medv, p = trainpct, list = FALSE)
+  Boston.train &lt;- Boston[Boston.train_obs,]
+  Boston.test &lt;- Boston[-Boston.train_obs,]
+  Boston.folds &lt;- createFolds(Boston.train$medv, kfolds)
+  
+  Boston.SL.start &lt;- Sys.time()
+  Boston.SL &lt;- snowSuperLearner(Y=Boston.train$medv,X=as.data.frame(Boston.train[,!names(Boston.train) %in% &quot;medv&quot;]),
+                            SL.library=sl.lib,method=&quot;method.AUC&quot;,cluster=cluster,
+                            family=&quot;binomial&quot;,cvControl = list(V=kfolds,validRows=Boston.folds))
+  Boston.predSL = predict(Boston.SL, as.data.frame(Boston.test[,!names(Boston.test) %in% &quot;medv&quot;]))
+  Boston.SL.end &lt;- Sys.time()
+  
+  Boston.train$medv &lt;- factor(Boston.train$medv, labels=c(&quot;No&quot;,&quot;Yes&quot;))
+  Boston.test$medv &lt;- factor(Boston.test$medv, labels=c(&quot;No&quot;,&quot;Yes&quot;))
+  Boston.my_control &lt;- trainControl(
+    method=&quot;cv&quot;,
+    number=kfolds,
+    savePredictions=&quot;final&quot;,
+    classProbs=TRUE,
+    summaryFunction=twoClassSummary,
+    index=Boston.folds,
+    allowParallel=TRUE
+  )
+  Boston.caret.start &lt;- Sys.time()
+  Boston.model_list &lt;- caretList(
+    medv~., data=Boston.train,
+    trControl=Boston.my_control,
+    metric=&quot;AUC&quot;,
+    methodList=caret.lib
+  )
+  Boston.caretens &lt;- caretEnsemble(
+    Boston.model_list, 
+    metric=&quot;ROC&quot;,
+    trControl=Boston.my_control)
+  Boston.predCT &lt;- 1-predict(Boston.caretens, newdata=Boston.test, type=&quot;prob&quot;)
+  Boston.caret.end &lt;- Sys.time()</code></pre>
+</div>
+<div id="boston-data---results" class="section level2">
+<h2>Boston Data - Results</h2>
+<p>Results for SuperLearner:</p>
+<pre class="r"><code>  Boston.SL</code></pre>
+<pre><code>## 
+## Call:  
+## snowSuperLearner(cluster = cluster, Y = Boston.train$medv, X = as.data.frame(Boston.train[,  
+##     !names(Boston.train) %in% &quot;medv&quot;]), family = &quot;binomial&quot;, SL.library = sl.lib,  
+##     method = &quot;method.AUC&quot;, cvControl = list(V = kfolds, validRows = Boston.folds)) 
+## 
+## 
+## 
+##                     Risk      Coef
+## SL.glm_All    0.07101290 0.1607620
+## SL.glmnet_All 0.06988839 0.2062488
+## SL.ranger_All 0.05349864 0.3725894
+## SL.nnet_All   0.33403615 0.2603998</code></pre>
+<p>And results for Caret:</p>
+<pre class="r"><code>  summary(Boston.caretens)</code></pre>
+<pre><code>## The following models were ensembled: glm, glmnet, ranger, nnet 
+## They were weighted: 
+## 3.3677 -0.2654 -1.7229 -4.4876 -0.0412
+## The resulting ROC is: 0.5
+## The fit for each individual model on the ROC is: 
+##  method       ROC      ROCSD
+##     glm 0.7454334 0.07138465
+##  glmnet 0.9092441 0.01144278
+##  ranger 0.9159270 0.01212189
+##    nnet 0.8372349 0.04653109</code></pre>
+</div>
+<div id="boston-data---superlearner-vs-caret-comparison" class="section level2">
+<h2>Boston Data - SuperLearner vs Caret Comparison</h2>
+<p>And now lets compare the results of the two</p>
+<pre class="r"><code>  Boston.SL_rocr = ROCR::prediction(Boston.predSL$pred, Boston.test$medv)
+  Boston.SLauc = ROCR::performance(Boston.SL_rocr, measure = &quot;auc&quot;, x.measure = &quot;cutoff&quot;)@y.values[[1]]
+  Boston.caret_rocr = ROCR::prediction(Boston.predCT, Boston.test$medv)
+  Boston.caretauc = ROCR::performance(Boston.caret_rocr, measure = &quot;auc&quot;, x.measure = &quot;cutoff&quot;)@y.values[[1]]
+  Boston.corr &lt;- round(cor(cbind(Boston.test$medv,Boston.predSL$pred,Boston.predCT)),3)
+  Boston.corr[upper.tri(Boston.corr)]&lt;-&quot;&quot;
+  Boston.corr &lt;- as.data.frame(Boston.corr)
+  colnames(Boston.corr) &lt;- c(&quot;H&quot;,&quot;SL&quot;,&quot;CT&quot;)
+  rownames(Boston.corr) &lt;- c(&quot;Holdout&quot;,&quot;SuperLearner&quot;,&quot;Caret&quot;)</code></pre>
+<p>As before, we can compare predictions:</p>
+<pre class="r"><code>  Boston.corr</code></pre>
+<pre><code>##                  H    SL CT
+## Holdout          1         
+## SuperLearner 0.808     1   
+## Caret        0.825 0.969  1</code></pre>
+<p>Area under the curve:</p>
+<pre class="r"><code>  Boston.SLauc</code></pre>
+<pre><code>## [1] 0.9541613</code></pre>
+<pre class="r"><code>  Boston.caretauc</code></pre>
+<pre><code>## [1] 0.9603073</code></pre>
+<p>And time taken:</p>
+<pre class="r"><code>  Boston.SL.end-Boston.SL.start</code></pre>
+<pre><code>## Time difference of 4.373913 secs</code></pre>
+<pre class="r"><code>  Boston.caret.end-Boston.caret.start</code></pre>
+<pre><code>## Time difference of 10.3306 secs</code></pre>
+</div>
+</div>
+<div id="final-thoughts" class="section level1">
+<h1>Final thoughts</h1>
+<p>While ensemble learning is not without its limitations - it can be very slow and potentially very complicated - it has the potential to create much better predictive models than any single method, without sacrificing robustness.</p>
+<p>Both SuperLearner and Caret have a bit of a learning curve, but aren’t too difficult to use once you get the hang of it. Personally, I will probably continue to use SL over Caret, but that is largely because it is integrated into a number of other packages that I use fairly routinely, and using Caret would be much more difficult for me.</p>
+<p>Performance was pretty similar - in the Sonar data, Caret outperformed SL, while in the Boston it was the reverse, but in both cases the performance of the two was pretty similar.</p>
+<p>In both my examples, Caret was a little slower than SL (although these were simple examples and were pretty fast). It would be interesting to see if that generalises to more real-world application with bigger, more complex data. I might have to come back to that in the future.</p>
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<div id="superlearner" class="section level3">
+<h3>SuperLearner</h3>
+<p><a href="https://CRAN.R-project.org/package=SuperLearner" class="uri">https://CRAN.R-project.org/package=SuperLearner</a><br />
+<a href="https://www.degruyter.com/view/j/sagmb.2007.6.issue-1/sagmb.2007.6.1.1309/sagmb.2007.6.1.1309.xml" class="uri">https://www.degruyter.com/view/j/sagmb.2007.6.issue-1/sagmb.2007.6.1.1309/sagmb.2007.6.1.1309.xml</a><br />
+<a href="https://cran.r-project.org/web/packages/SuperLearner/vignettes/Guide-to-SuperLearner.html" class="uri">https://cran.r-project.org/web/packages/SuperLearner/vignettes/Guide-to-SuperLearner.html</a></p>
+</div>
+<div id="caret" class="section level3">
+<h3>Caret</h3>
+<p><a href="https://cran.r-project.org/web/packages/caret/index.html" class="uri">https://cran.r-project.org/web/packages/caret/index.html</a><br />
+<a href="https://www.jstatsoft.org/article/view/v028i05" class="uri">https://www.jstatsoft.org/article/view/v028i05</a><br />
+<a href="https://cran.r-project.org/web/packages/caret/vignettes/caret.html" class="uri">https://cran.r-project.org/web/packages/caret/vignettes/caret.html</a><br />
+<a href="https://topepo.github.io/caret/index.html" class="uri">https://topepo.github.io/caret/index.html</a></p>
+</div>
+</div>
+</div>
