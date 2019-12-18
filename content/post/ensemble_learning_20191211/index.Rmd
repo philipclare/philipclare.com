@@ -1,5 +1,5 @@
 ---
-title: "Ensemble Learning"
+title: "Playing with Ensemble Learning"
 author: admin
 date: '2019-12-19'
 slug: []
