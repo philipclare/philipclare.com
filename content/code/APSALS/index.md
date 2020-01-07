@@ -28,15 +28,15 @@ This repository contains R code used in the TMLE analysis of parental supply of 
 
 | Description | R-code |
 | --- | --- |
-| A1 - Multiple imputation | [Multiple imputation code](Code/A1_multiple_imputation.R) |
-| A2 - Final data creation | [Final data creation code](Code/A2_final_data_creation.R) |
-| A3 - LTMLE analysis of parental supply of alcohol on harms using 'ltmle' (1). | [LTMLE analysis code](Code/A3_ltmle_analysis.R) |
+| A1 - Multiple imputation | [Multiple imputation code](https://github.com/philipclare/APSALS/blob/master/Code/A1_multiple_imputation.R) |
+| A2 - Final data creation | [Final data creation code](https://github.com/philipclare/APSALS/blob/master/Code/A2_final_data_creation.R) |
+| A3 - LTMLE analysis of parental supply of alcohol on harms using 'ltmle' (1). | [LTMLE analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A3_ltmle_analysis.R) |
 | A4 - Paramaterisation of marginal structural model from LTMLE analysis of parental supply of alcohol on harms using 'ltmleMSM' (1). | [LTMLE MSM analysis code](Code/A4_ltmle_msm_analysis.R) |
-| A5 - Naive analysis using generalised linear models | [Naive analysis code](Code/A5_naive_analysis.R) |
-| A6 - E-Value sensitivity analysis | [E-value analysis code](Code/A6_evalue_analysis.R) |
-| A7 - Secondary analysis comparing supply from age 15 to no supply | [Secondary analysis code](Code/A7_secondary_supply_at_age_15.R) |
-| A8 - Sensitivity analysis including only lagged covariates/confounders | [Sensitivity analysis 1 code](Code/A8_sensitivity_lagged_predictors.R) |
-| A9 - Sensitivity analysis including past outcomes as confounders | [Sensitivity analysis 2 code](Code/A9_sensitivity_control_for_past_outcomes.R) |
-| A10 - Sensitivity analysis using continuous rather than binary outcomes | [Sensitivity analysis 3 code](Code/A10_sensitivity_continuous_outcomes.R) |
+| A5 - Naive analysis using generalised linear models | [Naive analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A5_naive_analysis.R) |
+| A6 - E-Value sensitivity analysis | [E-value analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A6_evalue_analysis.R) |
+| A7 - Secondary analysis comparing supply from age 15 to no supply | [Secondary analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A7_secondary_supply_at_age_15.R) |
+| A8 - Sensitivity analysis including only lagged covariates/confounders | [Sensitivity analysis 1 code](https://github.com/philipclare/APSALS/blob/master/Code/A8_sensitivity_lagged_predictors.R) |
+| A9 - Sensitivity analysis including past outcomes as confounders | [Sensitivity analysis 2 code](https://github.com/philipclare/APSALS/blob/master/Code/A9_sensitivity_control_for_past_outcomes.R) |
+| A10 - Sensitivity analysis using continuous rather than binary outcomes | [Sensitivity analysis 3 code](https://github.com/philipclare/APSALS/blob/master/Code/A10_sensitivity_continuous_outcomes.R) |
 
 1. Lendle SD, Schwab J, Petersen ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
