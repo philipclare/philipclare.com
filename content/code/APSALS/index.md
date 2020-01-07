@@ -31,7 +31,7 @@ This repository contains R code used in the TMLE analysis of parental supply of 
 | A1 - Multiple imputation | [Multiple imputation code](https://github.com/philipclare/APSALS/blob/master/Code/A1_multiple_imputation.R) |
 | A2 - Final data creation | [Final data creation code](https://github.com/philipclare/APSALS/blob/master/Code/A2_final_data_creation.R) |
 | A3 - LTMLE analysis of parental supply of alcohol on harms using 'ltmle' (1). | [LTMLE analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A3_ltmle_analysis.R) |
-| A4 - Paramaterisation of marginal structural model from LTMLE analysis of parental supply of alcohol on harms using 'ltmleMSM' (1). | [LTMLE MSM analysis code](Code/A4_ltmle_msm_analysis.R) |
+| A4 - Paramaterisation of marginal structural model from LTMLE analysis of parental supply of alcohol on harms using 'ltmleMSM' (1). | [LTMLE MSM analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A4_ltmle_msm_analysis.R) |
 | A5 - Naive analysis using generalised linear models | [Naive analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A5_naive_analysis.R) |
 | A6 - E-Value sensitivity analysis | [E-value analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A6_evalue_analysis.R) |
 | A7 - Secondary analysis comparing supply from age 15 to no supply | [Secondary analysis code](https://github.com/philipclare/APSALS/blob/master/Code/A7_secondary_supply_at_age_15.R) |
