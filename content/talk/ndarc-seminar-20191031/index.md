@@ -12,11 +12,14 @@ authors: []
 date: "2019-10-31T15:00:00Z"
 date_end: "2019-10-31T16:00:00Z"
 event: NDARC Seminar Series
-event_url: https://ndarc.med.unsw.edu.au/event/whirlwind-tour-alternative-study-designs
+event_url: https://ndarc.med.unsw.edu.au/blog/whirlwind-tour-alternative-study-designs
 featured: false
 image:
   caption: 'Image credit: [**NDARC**](https://d1m8gswelyy0gk.cloudfront.net/sites/default/files/styles/large/public/ndarc/events/Seminar%20audience%20500_1.jpg?itok=20-wAm-I)'
   focal_point: ""
+  preview_only: true
+video_src: "https://www.youtube.com/embed/i9YJapIje0I"
+video_embed: true
 links:
 location: NDARC
 math: true
@@ -27,6 +30,6 @@ summary: A seminar on non-standard research designs.
 tags: []
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "/slides/ndarc-seminar-20191031/Study-Design-Seminar"
 url_video: ""
 ---

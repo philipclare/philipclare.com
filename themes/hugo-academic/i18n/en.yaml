@@ -191,6 +191,9 @@
 - id: projects
   translation: Projects
 
+- id: code
+  translation: Code
+
 # Search
 
 - id: search

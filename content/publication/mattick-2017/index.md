@@ -29,7 +29,8 @@ image:
   caption: 'Image credit: [**the drinks business**]'
   focal_point: ""
   preview_only: false
-projects: []
+projects:
+- APSALS
 publication: 'Psychological Medicine 47(2)'
 publication_short: ""
 publication_types:

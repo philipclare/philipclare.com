@@ -2,6 +2,6 @@
 header:
   caption: ""
   image: ""
-title: Bake Off Ratings Reports
+title: Blog
 view: 2
 ---

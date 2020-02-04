@@ -20,11 +20,13 @@ image:
 links:
 location: NDARC
 math: true
-projects: []
+projects: 
+- causal-inference
 publishDate: "2019-10-06T00:00:00Z"
 slides: []
 summary: A seminar on robust causal inference methods.
-tags: []
+tags:
+- Causal inference
 url_code: ""
 url_pdf: ""
 url_slides: "/slides/biostats-seminar-20190529/Biostats_Seminar.html"

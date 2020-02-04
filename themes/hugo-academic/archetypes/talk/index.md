@@ -37,6 +37,9 @@ image:
   focal_point: ""
   preview_only: false
 
+video_src: ""
+video_embed: false
+
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 # links:
@@ -46,8 +49,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides: Biostats_Seminar.html
-
+url_slides:
 url_code:
 url_pdf:
 url_video:
