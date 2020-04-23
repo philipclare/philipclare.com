@@ -16,7 +16,8 @@
 
     {{ if ne .Type "page" }}
       {{ partial "page_author" . }}
-	  {{ partial "comments" . }}
+	  {{ partial "disqus" . }}
+      {{ partial "disqus-counter" . }}
       {{ $related := site.RegularPages.Related . | first 5 }}
       {{ with $related }}
       <div class="article-widget">
