@@ -68,4 +68,5 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   author = "authors"
 
 # DISQUS
+[params]
 disqusShortname = "philipclare"
