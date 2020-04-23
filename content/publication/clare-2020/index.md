@@ -35,7 +35,7 @@ date: "2020-02-07T00:00:00Z"
 doi: "10.1111/add.15005"
 featured: false
 image:
-  caption: 'Image credit: [**DRINKWISE**]'
+  caption: 'Image credit: [**Alcohol Problems and Solutions**]'
   focal_point: ""
   preview_only: false
 projects:
