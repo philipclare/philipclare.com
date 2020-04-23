@@ -1,11 +1,11 @@
 ﻿---
-abstract: "Introduction
+abstract: "**Introduction**
 The quality of the mother–child relationship in the first year of life has far reaching implications across the life course (Bornstein in Annu Rev Psychol 65:121–158, 2014). Yet little is known about predictors of maternal bonding and emotional availability in early infancy. In this study we examined the extent to which postnatal bonding, maternal mental health, and substance use at 8-weeks postpartum predicted mother–infant bonding (self-report) and mother emotional availability (observational) at 12-months of age.
-Methods
+<br>**Methods**
 Data were obtained from an Australian longitudinal cohort study of pregnancy (n = 308). Data were collected during pregnancy, at birth, and postnatally at 8-weeks and 12-months.
-Results
+<br>**Results**
 The results show strong continuity between postnatal bonding at 8-weeks and 12-months. Early postpartum stress and depression were associated with bonding at 12-months; however, the effect did not persist after adjustment for bonding at 8-weeks. Tobacco use at 8-weeks, but no other indicators of mental health, predicted lower emotional availability scores at 12-months.
-Discussion
+<br>**Discussion**
 Results suggest that the mother’s felt bond to her child is stable across the first year of life and that early bonding is a more robust indicator of bonding at 12-months than a mother’s mental health or substance use. These findings point to the importance of clinical and public health investments in establishing a strong bond between mother and child in the early postpartum period."
 authors:
 - Larissa Rossen
