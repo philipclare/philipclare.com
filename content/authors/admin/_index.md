@@ -4,7 +4,7 @@ authors:
 bio: Biostatistician at the National Drug and Alcohol Research Centre, UNSW Sydney.
 education:
   courses:
-  - course: PhD in Biostatistics (submitted)
+  - course: PhD in Biostatistics
     institution: UNSW Sydney
     year: 2020
   - course: Master of Biostatistics
