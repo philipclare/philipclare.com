@@ -33,12 +33,13 @@
     {{ if site.Params.section_pager }}
     <div class="article-widget">
       {{ partial "section_pager" . }}
+	  
+	  {{ template "_internal/disqus.html" . }}
     </div>
     {{ end }}
 
     {{ partial "comments" . }}
-    {{ template "_internal/disqus.html" . }}
-	
+    
   </div>
 </article>
 
