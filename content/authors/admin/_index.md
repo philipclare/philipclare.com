@@ -6,7 +6,7 @@ education:
   courses:
   - course: PhD in Biostatistics (submitted)
     institution: UNSW Sydney
-    year: 2019
+    year: 2020
   - course: Master of Biostatistics
     institution: University of Sydney
     year: 2014
@@ -15,7 +15,7 @@ interests:
 - Causal Inference
 - Machine Learning
 - Epidemiology/Public Health
-name: Philip J Clare
+name: Dr. Philip J Clare, PhD
 organizations:
 - name: UNSW Sydney
   url: ""
@@ -48,6 +48,6 @@ user_groups:
 - Visitors
 ---
 
-Philip is a Biostatistician, with a Masters in Biostatistics from the University of Sydney. He currently works as a Biostatistician, consulting on a variety of projects for the centre. He also conducts methodological research, with a particular focus on causal inference using observational data, and the use of machine learning in causal inference.
+Philip is a Biostatistician, with a PhD in Biostatistics from UNSW Sydney and a Masters in Biostatistics from the University of Sydney. He currently works as a Biostatistician, consulting on a variety of projects for the centre. He also conducts methodological research, with a particular focus on causal inference using observational data, and the use of machine learning in causal inference.
 
-Philip recently submitted his PhD in biostatistics, with a focus on the use of targeted maximum likelihood estimation to estimate causal effects, under the supervision of Assoc. Prof. Timothy Dobbins, Prof. Richard Mattick and Assoc. Prof. Raimondo Bruno.
+Philip completed his PhD in 2020, with a focus on the use of targeted maximum likelihood estimation to estimate causal effects, under the supervision of Assoc. Prof. Timothy Dobbins, Prof. Richard Mattick and Assoc. Prof. Raimondo Bruno.
