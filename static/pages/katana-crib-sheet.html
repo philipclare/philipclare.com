@@ -11,7 +11,7 @@
 
 <meta name="author" content="Philip J Clare" />
 
-<meta name="date" content="2020-07-02" />
+<meta name="date" content="2020-07-20" />
 
 <title>Katana Crib Sheet</title>
 
@@ -1302,35 +1302,30 @@ div.sourceCode
 @media screen {
 code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
+code span.al { color: #ff0000; } /* Alert */
+code span.an { color: #008000; } /* Annotation */
+code span.at { } /* Attribute */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
+code span.cf { color: #0000ff; } /* ControlFlow */
+code span.ch { color: #008080; } /* Char */
+code span.cn { } /* Constant */
+code span.co { color: #008000; } /* Comment */
+code span.cv { color: #008000; } /* CommentVar */
+code span.do { color: #008000; } /* Documentation */
 code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code span.in { color: #008000; } /* Information */
+code span.kw { color: #0000ff; } /* Keyword */
+code span.op { } /* Operator */
+code span.ot { color: #ff4000; } /* Other */
+code span.pp { color: #ff4000; } /* Preprocessor */
+code span.sc { color: #008080; } /* SpecialChar */
+code span.ss { color: #008080; } /* SpecialString */
+code span.st { color: #008080; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #008080; } /* VerbatimString */
+code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 </style>
 <script>
@@ -1571,7 +1566,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Katana Crib Sheet</h1>
 <h4 class="author">Philip J Clare</h4>
-<h4 class="date">02 July 2020</h4>
+<h4 class="date">20 July 2020</h4>
 
 </div>
 
@@ -1586,16 +1581,6 @@ div.tocify {
 <li>Interactively <br> This means running a job like you would on a normal PC, with a live runtime, and the ability to write and run code as you go.</li>
 <li>Batch job <br> This is a job run from a pre-written script, that does not require any intervention.</li>
 </ol>
-</div>
-<div id="using-katana" class="section level2">
-<h2>Using Katana</h2>
-<p>For the basics of running jobs and using Katana, you can check out the information on the UNSW website: <a href="https://research.unsw.edu.au/katana" class="uri">https://research.unsw.edu.au/katana</a></p>
-<p>However, there are some things that are worth considering, in addition to the basics of getting a job running:</p>
-<ul>
-<li>Run smaller tests first. In addition to making sure there are no issues with your code, this can also help give you a better idea of exactly how many resources to request. If you ask for 100gb of memory, but the end-of-job email says the job only used 30gb, you can safely lower your request. This will make it easier for the scheduler to fit in your job.</li>
-<li>Think carefully about the best way to split the job up to make it most efficient.</li>
-<li>Be careful of replicability/random seeds. A lot of processes (eg multiple imputation) use random seeds to ensure both (quasi)randomness and replicability. This means that if you split the job up across nodes, you need to be very careful about how seeds are set to ensure that the random processes are independent but replicable.</li>
-</ul>
 </div>
 <div id="parallel-processing" class="section level2">
 <h2>Parallel Processing</h2>
@@ -1632,6 +1617,20 @@ div.tocify {
 </tbody>
 </table>
 </div>
+<div id="what-is-it-good-for" class="section level2">
+<h2>What is it good for?</h2>
+<p>Katana (and cluster computers more generally) are most effective for jobs that can be divided into similar or identical parts, and then recombined at the end. Some examples of situations that can be made more efficient by cluster computing are: * Multiple imputation to deal with missing data. For example, with a dataset with about 20% missing data, you might want to make 20 imputed datasets. Usually, this would be done sequentially – create imputation #1, then move onto #2 and so on. * Analysis of clustered data using mixed effects models, where a different model is conducted for each of a number of outcomes, but the predictor variables are the same across. * Cross-validation in machine learning – where data is randomly split into different sets, and the same machine learning algorithm is run on each set. In each of these, the tasks being performed are very similar or even identical apart from ‘randomness’. Thus, the task can be sped up by running each task simultaneously on a different processing core.</p>
+</div>
+<div id="using-katana" class="section level2">
+<h2>Using Katana</h2>
+<p>For the basics of running jobs and using Katana, you can check out the information on the UNSW website: <a href="https://research.unsw.edu.au/katana" class="uri">https://research.unsw.edu.au/katana</a></p>
+<p>However, there are some things that are worth considering, in addition to the basics of getting a job running:</p>
+<ul>
+<li>Run smaller tests first. In addition to making sure there are no issues with your code, this can also help give you a better idea of exactly how many resources to request. If you ask for 100gb of memory, but the end-of-job email says the job only used 30gb, you can safely lower your request. This will make it easier for the scheduler to fit in your job.</li>
+<li>Think carefully about the best way to split the job up to make it most efficient.</li>
+<li>Be careful of replicability/random seeds. A lot of processes (eg multiple imputation) use random seeds to ensure both (quasi)randomness and replicability. This means that if you split the job up across nodes, you need to be very careful about how seeds are set to ensure that the random processes are independent but replicable.</li>
+</ul>
+</div>
 <div id="examples" class="section level2">
 <h2>Examples</h2>
 <p>I will show two examples of the use of Katana for parallel processing. Code for both examples is available on <a href="https://github.com/philipclare/katana">Github</a>.</p>
@@ -1643,7 +1642,7 @@ div.tocify {
 <p>Example 1 shows an example of in-program parallelisation to perform a relatively simply imputation using parlmice.</p>
 <div id="example-1-pbs-script" class="section level4">
 <h4>Example 1 PBS Script</h4>
-<div class="sourceCode" id="cb1" style="max-height: 300px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#!/bin/bash</span></span>
+<div class="sourceCode" id="cb1" style="max-height: 350px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#!/bin/bash</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="co">#PBS -N IMPUTATION_EXAMPLE</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="co">#PBS -l select=1:ncpus=10:mem=40gb</span></span>
@@ -1662,7 +1661,7 @@ div.tocify {
 </div>
 <div id="example-1-r-code" class="section level4">
 <h4>Example 1 R Code</h4>
-<div class="sourceCode" id="cb2" style="max-height: 300px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">##############################################################################</span></span>
+<div class="sourceCode" id="cb2" style="max-height: 350px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">##############################################################################</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="co">##   </span></span>
 <span id="cb2-3"><a href="#cb2-3"></a><span class="co">## Katana example 1</span></span>
 <span id="cb2-4"><a href="#cb2-4"></a><span class="co">## Multiple imputation using &#39;parlmice&#39;</span></span>
@@ -1676,7 +1675,7 @@ div.tocify {
 <span id="cb2-12"><a href="#cb2-12"></a><span class="kw">.libPaths</span>(<span class="st">&quot;/home/z3312911/RPackages&quot;</span>) <span class="co"># Change to folder where R packages can be saved</span></span>
 <span id="cb2-13"><a href="#cb2-13"></a>workdir &lt;-<span class="st"> &quot;/home/z3312911/examples/&quot;</span> <span class="co"># Change to folder where job files are saved</span></span>
 <span id="cb2-14"><a href="#cb2-14"></a></span>
-<span id="cb2-15"><a href="#cb2-15"></a><span class="co"># 1.2 Check libraries, install missing packages, update old packages, and then load required packages</span></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="co"># 1.2 Check libraries, install missing packages, update old packages, and then load packages</span></span>
 <span id="cb2-16"><a href="#cb2-16"></a>libs &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;mice&quot;</span>,<span class="st">&quot;miceadds&quot;</span>,<span class="st">&quot;parallel&quot;</span>)</span>
 <span id="cb2-17"><a href="#cb2-17"></a>install &lt;-<span class="st"> </span><span class="op">!</span>libs <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>() <span class="op">|</span><span class="st"> </span>libs <span class="op">%in%</span><span class="st"> </span><span class="kw">old.packages</span>()</span>
 <span id="cb2-18"><a href="#cb2-18"></a><span class="cf">if</span> (<span class="kw">any</span>(install)) {</span>
@@ -1733,7 +1732,7 @@ div.tocify {
 <p>As an example of this kind of job, take a very simple Monte-Carlo simulation. This simulation creates a random dataset based on a mixed-effect model. It then runs a random effects model on that data using ‘lmer’ from the package ‘lme4’, and save the coefficient and standard error of just the fixed effect. In this example, each simulation iteration is very quick, so runtime is well under that (in reality, this simulation is not one that I would need to run on Katana), but gives a relatively simple example of an array job.</p>
 <div id="example-2-pbs-script" class="section level4">
 <h4>Example 2 PBS Script</h4>
-<div class="sourceCode" id="cb3" style="max-height: 300px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#!/bin/bash</span></span>
+<div class="sourceCode" id="cb3" style="max-height: 350px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#!/bin/bash</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="co">#PBS -N SIMULATION_EXAMPLE</span></span>
 <span id="cb3-4"><a href="#cb3-4"></a><span class="co">#PBS -l select=1:ncpus=1:mem=4gb</span></span>
@@ -1753,7 +1752,7 @@ div.tocify {
 </div>
 <div id="example-2-r-code" class="section level4">
 <h4>Example 2 R Code</h4>
-<div class="sourceCode" id="cb4" style="max-height: 300px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co">##############################################################################</span></span>
+<div class="sourceCode" id="cb4" style="max-height: 350px;"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co">##############################################################################</span></span>
 <span id="cb4-2"><a href="#cb4-2"></a><span class="co">##   </span></span>
 <span id="cb4-3"><a href="#cb4-3"></a><span class="co">## Katana example 2</span></span>
 <span id="cb4-4"><a href="#cb4-4"></a><span class="co">## Simple Monte-carlo Simulation</span></span>
@@ -1767,7 +1766,7 @@ div.tocify {
 <span id="cb4-12"><a href="#cb4-12"></a><span class="kw">.libPaths</span>(<span class="st">&quot;/home/z3312911/RPackages&quot;</span>) <span class="co"># Change to folder where R packages can be saved</span></span>
 <span id="cb4-13"><a href="#cb4-13"></a>workdir &lt;-<span class="st"> &quot;/home/z3312911/examples/&quot;</span> <span class="co"># Change to folder where job files are saved</span></span>
 <span id="cb4-14"><a href="#cb4-14"></a></span>
-<span id="cb4-15"><a href="#cb4-15"></a><span class="co"># 1.2 Check libraries, install missing packages, update old packages, and then load required packages</span></span>
+<span id="cb4-15"><a href="#cb4-15"></a><span class="co"># 1.2 Check libraries, install missing packages, update old packages, and then load packages</span></span>
 <span id="cb4-16"><a href="#cb4-16"></a>libs &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;dqrng&quot;</span>,<span class="st">&quot;lme4&quot;</span>,<span class="st">&quot;dplyr&quot;</span>,<span class="st">&quot;tidyverse&quot;</span>)</span>
 <span id="cb4-17"><a href="#cb4-17"></a>install &lt;-<span class="st"> </span><span class="op">!</span>libs <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>() <span class="op">|</span><span class="st"> </span>libs <span class="op">%in%</span><span class="st"> </span><span class="kw">old.packages</span>()</span>
 <span id="cb4-18"><a href="#cb4-18"></a><span class="cf">if</span> (<span class="kw">any</span>(install)) {</span>
