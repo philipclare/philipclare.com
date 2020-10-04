@@ -17,8 +17,8 @@ interests:
 - Epidemiology/Public Health
 name: Dr. Philip J Clare, PhD
 role: 
-- Biostatistician, University of Sydney
-- Adjunct Lecturer, UNSW Sydney
+- name: Biostatistician, University of Sydney
+- name: Adjunct Lecturer, UNSW Sydney
 social:
 - icon: envelope
   icon_pack: fas
