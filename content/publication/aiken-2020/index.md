@@ -7,7 +7,7 @@ A cohort of 1910 adolescents (mean age 12.9yrs) were surveyed annually over seve
 <br>**Results**
 In early waves, most parental supply comprised sips, while supply of whole drinks increased in later waves. Among those not receiving alcohol from other sources, parental supply of sips was associated with increased odds of binge drinking (OR: 1.85; 99.5 % CI: 1.17–2.91) and alcohol-related harms (OR: 1.70; 99.5 % CI: 1.20–2.42), but not with reporting symptoms of alcohol abuse, dependence or AUD, compared with no supply. Relative to no supply, supply of sips from other sources was associated with increased odds of binge drinking (OR: 2.04; 99.5 % CI: 1.14–3.67) only. Compared with supply of sips, supply of whole drinks by parents or others had higher odds of binge drinking, alcohol-related harms, symptoms of dependence and of AUD. Secondary analysis demonstrated that supply of larger quantities was associated with an increased risk of all outcomes.
 <br>**Conclusions**
-Parental provision of sips is associated with increased risks and the supply of greater quantities was associated with an increasing risk of adverse outcomes.
+Parental provision of sips is associated with increased risks and the supply of greater quantities was associated with an increasing risk of adverse outcomes."
 authors:
 - Alexandra Aiken
 - admin

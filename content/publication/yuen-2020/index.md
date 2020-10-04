@@ -27,4 +27,22 @@ We identified 4 classes: abstaining (n = 352); late-onset moderate drinking (n =
 Our study provides evidence that parenting factors and peer influences in early adolescence should be considered to reduce risk of later alcohol-related harm. Early initiation and heavy alcohol use throughout adolescence are associated with increased risk of alcohol-related harm compared with recommended maximum levels of consumption (late-onset, moderate drinking)."
 date: "2020-10-01T00:00:00Z"
 doi: "10.1542/peds.2020-0440"
+featured: false
+image:
+  caption: 'Image credit: ['abc.net.au']'
+  focal_point: ""
+  preview_only: false
+projects:
+- APSALS
+publication: 'Pediatrics'
+publication_short: ""
+publication_types:
+- "2"
+publishDate: "2020-10-01T00:00:00Z"
+summary: An analysis of adolescent alcohol use trajectories and associations with later harm.
+tags:
+- Alcohol
+- Adolescence
+- Longitudinal cohort study
+url_source: "https://pediatrics.aappublications.org/content/146/4/e20200440"
 ---
