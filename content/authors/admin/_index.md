@@ -16,12 +16,9 @@ interests:
 - Machine Learning
 - Epidemiology/Public Health
 name: Dr. Philip J Clare, PhD
-organizations:
-- name: University of Sydney
-  url: ""
-- name: UNSW Sydney
-  url: ""
-role: Biostatistician
+role: 
+- Biostatistician, University of Sydney
+- Adjunct Lecturer, UNSW Sydney
 social:
 - icon: envelope
   icon_pack: fas
