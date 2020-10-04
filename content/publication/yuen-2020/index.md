@@ -29,7 +29,7 @@ date: "2020-10-01T00:00:00Z"
 doi: "10.1542/peds.2020-0440"
 featured: false
 image:
-  caption: 'Image credit: [abc.net.au]'
+  caption: 'Image credit: ['abc.net.au']'
   focal_point: ""
   preview_only: false
 projects:
