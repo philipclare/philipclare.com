@@ -25,8 +25,5 @@ Survey data from a longitudinal cohort of Australian adolescents (n = 1813) were
 We identified 4 classes: abstaining (n = 352); late-onset moderate drinking (n = 503); early-onset moderate drinking (n = 663); and early-onset heavy drinking (n = 295). Having more alcohol-specific household rules reduced risk of early-onset heavy drinking compared with late-onset moderate drinking (relative risk ratio: 0.31; 99.5% confidence interval [CI]: 0.11–0.83), whereas having more substance-using peers increased this risk (relative risk ratio: 3.43; 99.5% CI: 2.10–5.62). Early-onset heavy drinking increased odds of meeting criteria for AUD in early adulthood (odds ratio: 7.68; 99.5% CI: 2.41–24.47).
 <br>**Conclusions**
 Our study provides evidence that parenting factors and peer influences in early adolescence should be considered to reduce risk of later alcohol-related harm. Early initiation and heavy alcohol use throughout adolescence are associated with increased risk of alcohol-related harm compared with recommended maximum levels of consumption (late-onset, moderate drinking).
-date: "2020-10-01T00:00:00Z"
-doi: "10.1542/peds.2020-0440"
-featured: false
 
 ---
