@@ -30,7 +30,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- APSALS
+- POINT
 publication: 'EClinicalMedicine'
 publication_short: ""
 publication_types:
