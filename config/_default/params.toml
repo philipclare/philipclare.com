@@ -89,11 +89,11 @@ email = "p.clare@unsw.edu.au"
 phone = ""
 
 # Directions for visitors to locate you.
-directions = "National Drug and Alcohol Research Centre, Building R3"
+directions = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "22-32 King St", city = "Randwick", region = "NSW", postcode = "2031", country = "Australia", country_code = "AUS"}
+address = {street = "Level 6, The Hub, Charles Perkins Centre (D17), University of Sydney", city = "Camperdown", region = "NSW", postcode = "2006", country = "Australia", country_code = "AUS"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
