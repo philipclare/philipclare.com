@@ -9,7 +9,7 @@ Of 1,514 participants 44.4% were male (95%CI 41.9–46.9) and their mean age was
 <br>**Interpretation**
 Both patient risk factors and opioid dose are associated with problematic opioid use behaviours."
 authors:
-- Gabrielle Campbel
+- Gabrielle Campbell
 - Firouzeh Noghrehchi
 - Suzanne Nielsen
 - admin
