@@ -1,5 +1,5 @@
 ﻿---
-title: "The overall effect of parental supply of alcohol across adolescence on alcohol‐related harms in early adulthood—a prospective cohort study"
+title: "Alcohol use among young Australian adults in May‐June 2020 during the COVID‐19 pandemic: a prospective cohort study"
 abstract: "
 **Aims**
 To estimate change in young people's alcohol consumption during COVID‐19 restrictions in Australia in early‐mid 2020, and test whether those changes were consistent by gender and level of consumption prior to the pandemic.<br>
