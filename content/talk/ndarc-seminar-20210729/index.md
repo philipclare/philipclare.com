@@ -7,14 +7,14 @@ authors: []
 date: "2021-07-29T15:00:00Z"
 date_end: "2021-07-29T16:00:00Z"
 event: NDARC Seminar Series
-# event_url: https://ndarc.med.unsw.edu.au/blog/whirlwind-tour-alternative-study-designs
+event_url: https://ndarc.med.unsw.edu.au/resource/mental-health-and-alcohol-use-young-australians-during-covid-19
 featured: false
 image:
   caption: 'Image credit: [**Better Meetings**]'
   focal_point: ""
   preview_only: true
-# video_src: "https://www.youtube.com/embed/i9YJapIje0I"
-# video_embed: true
+video_src: "https://www.youtube.com/watch?v=YL5Hdv44SGI"
+video_embed: true
 links:
 location: Online
 math: true
