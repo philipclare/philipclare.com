@@ -13,7 +13,7 @@ image:
   caption: 'Image credit: [**Better Meetings**]'
   focal_point: ""
   preview_only: true
-video_src: "https://www.youtube.com/watch?v=YL5Hdv44SGI"
+video_src: "https://www.youtube.com/embed/YL5Hdv44SGI"
 video_embed: true
 links:
 location: Online
