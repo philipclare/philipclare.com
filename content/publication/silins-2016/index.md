@@ -4,7 +4,7 @@ authors:
 - Edmund Silins
 - Delyse Hutchinson
 - Ben Richardson
-- admin
+- author
 - Tanja Capic 
 - Matthew Fuller-Tyszkiewicz
 - Linda Hartley-Clarke

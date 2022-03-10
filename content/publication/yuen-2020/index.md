@@ -4,7 +4,7 @@ authors:
 - Wing See Yuen
 - Gary Chan
 - Raimondo Bruno
-- admin
+- author
 - Richard P Mattick
 - Alexandra Aiken
 - Veronica Boland

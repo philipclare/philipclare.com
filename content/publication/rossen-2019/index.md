@@ -11,7 +11,7 @@ authors:
 - Larissa Rossen
 - Richard P Mattick
 - Judy Wilson
-- admin
+- author
 - Lucinda Burns
 - Steve Allsop
 - Elizabeth J Elliott

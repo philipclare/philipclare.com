@@ -6,7 +6,7 @@ authors:
 - Gary Chan
 - Jim McCambridge
 - Tim Slade
-- admin
+- author
 - Alexandra Aiken
 - Kypros Kypri
 - Delyse Hutchinson

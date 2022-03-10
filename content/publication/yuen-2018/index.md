@@ -3,7 +3,7 @@ title: "A protocol for the extension of the Australian Parental Supply of Alcoho
 authors:
 - Wing See Yuen
 - Amy Peacock
-- admin
+- author
 - Alexandra Aiken
 - Louisa Degenhardt
 - Veronica Boland

@@ -4,7 +4,7 @@ authors:
 - Suzanne Nielsen
 - Natasa Gisev
 - Janni Leung
-- admin
+- author
 - Raimondo Bruno
 - Nicholas Lintzeris
 - Briony Larance

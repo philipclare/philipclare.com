@@ -33,7 +33,7 @@ authors:
 - Frank Cordaro
 - Harry Hill
 - Scott Hall
-- admin
+- author
 - Mohammadreza Mohebbi
 - Michael Berk
 date: "2021-07-13T00:00:00Z"
