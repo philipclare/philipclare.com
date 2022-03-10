@@ -1,0 +1,188 @@
+
+.remark-slide-content {
+  background-color: #fff;
+  font-family: 'Arial';
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 125%;
+  padding: 1em 2em 0em 2em;
+  background-image: url(logo.jpg);
+  background-size: 200px;
+  background-position: 1% 99%;
+}
+
+.remark-slide-content > h1 {
+  font-family: 'Arial';
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  color: #E64626;
+  border-bottom: 1px solid #E64626;
+}
+
+.remark-slide-content > ul li {
+  list-style: none;
+}
+
+.remark-slide-content > ul li::before {
+  content: "\2022"; 
+  color: #E64626;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+img { 
+  max-width: 90%;
+  max-height: 450px;
+  vertical-align: middle;
+}
+
+.remark-slide-number {
+  font-size: 20px;
+  color: black;
+}
+
+.small {
+  font-size: 25px !important;
+}
+
+.red-section {
+  background-image: url();
+  background-color: #E64626;
+}
+
+.red-section h1 {
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  padding-top: 25%;
+}
+
+.red-section .remark-slide-number {
+  color: white;
+}
+
+.white-section {
+  background-image: url();
+  background-color: white;
+}
+
+.white-section h1 {
+  color: #E64626;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #d63c15;
+  padding-top: 25%;
+}
+
+.remark-slide-content > table {
+  border: none;
+  padding: none;
+}
+
+/***************/
+/* Title slide */
+/***************/
+
+/* Add image and change bg color */
+.title-slide {
+  background-size: 400px;
+  background-color: #fff;
+  padding: 0 0 0 0;
+  height: 100%;
+}
+
+.title-slide h1 {
+  color: #E64626;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border-bottom: 0px solid #f00;
+  display: flex;
+}
+
+.title-slide h2 {
+  color: #515151;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.title-slide h3 {
+  color: #515151;
+  font-family: 'Arial';
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.title-slide h4 {
+  color: #000000;
+  font-family: 'Arial';
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* turns off slide numbers for title page: https://github.com/gnab/remark/issues/298 */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.title-whole {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.colleft {
+  height: 100%;
+  background-color: #515151;
+  width: 50%;
+}
+.colright {
+  height: 100%;
+  background-color: clear;
+  width: 50%;
+}
+
+.row1 {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  align-items: center;
+}
+.row2 {
+  height: 5%;
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+.background { 
+  min-height:100%;
+  min-width:100%;
+}
+
