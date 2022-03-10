@@ -15,7 +15,7 @@ Parental supply of alcohol throughout adolescence saw greater risk of binge drin
 **Conclusions**
 Adolescents whose parents supply them with alcohol appear to have an increased risk of alcohol‐related harm compared with adolescents whose parents do not supply them with alcohol. The risk appears to increase with earlier initiation of supply."
 authors:
-- admin
+- author
 - Timothy Dobbins
 - Raimondo Bruno
 - Amy Peacock

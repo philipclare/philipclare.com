@@ -2,7 +2,7 @@
 title: "Age of Alcohol Initiation and Progression to Binge Drinking in Adolescence: A Prospective Cohort Study"
 authors:
 - Alexandra Aiken
-- admin
+- author
 - Monika Wadolowski
 - Delyse Hutchinson
 - Jackob M Najman

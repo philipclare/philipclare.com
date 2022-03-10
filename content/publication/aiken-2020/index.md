@@ -10,7 +10,7 @@ In early waves, most parental supply comprised sips, while supply of whole drink
 Parental provision of sips is associated with increased risks and the supply of greater quantities was associated with an increasing risk of adverse outcomes."
 authors:
 - Alexandra Aiken
-- admin
+- author
 - Veronica Boland
 - Louisa Degenhardt
 - Wing See Yuen

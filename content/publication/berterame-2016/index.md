@@ -13,7 +13,7 @@ authors:
 - Johny Thomas
 - Sarah Fellner
 - Benjamin Vosse
-- admin
+- author
 - Wei Hao
 - David T Johnson
 - Alejandro Mohar

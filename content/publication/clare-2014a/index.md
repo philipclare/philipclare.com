@@ -1,7 +1,7 @@
 ﻿---
 title: "The relationship between socioeconomic status and ‘hardcore’ smoking over time – greater accumulation of hardened smokers in low-SES than high-SES smokers"
 authors:
-- admin
+- author
 - Deborah Bradford
 - Ryan J Courtney
 - Kristy A Martire

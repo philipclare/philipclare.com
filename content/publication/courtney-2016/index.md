@@ -2,7 +2,7 @@
 title: "Predictors of retention in a randomised trial of smoking cessation in low-socioeconomic status Australian smokers"
 authors:
 - Ryan J Courtney
-- admin
+- author
 - Veronica Boland
 - Kristy A Martire
 - Billie Bonevski

@@ -8,7 +8,7 @@ Parental supply was associated with greater overall consumption in earlier adole
 **Conclusions**
 Parental supply of alcohol was associated with increased alcohol consumption by their children during early adolescence. While parental supply appears to have less impact on drinking in later adolescence, there was no evidence to suggest it is protective. Parents should be advised to avoid supplying children with alcohol, particularly in early adolescence."
 authors:
-- admin
+- author
 - Alexandra Aiken
 - Wing See Yuen
 - Amy Peacock

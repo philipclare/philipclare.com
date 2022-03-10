@@ -8,7 +8,7 @@ We screened 4239 abstracts, and subsequently reviewed 1100 articles, leaving 542
 **Conclusions**
 There has been marked growth in reports addressing exposure-affected time-varying confounding. This was driven by work in a small number of topic areas, with other areas showing relatively little uptake. In addition, despite developments in more advanced methods such doubly robust techniques and estimation via machine learning, implementation has been largely concentrated on the simpler, yet potentially less robust, IPTW."
 authors:
-- admin
+- author
 - Timothy A Dobbins
 - Richard P Mattick
 date: "2018-10-24T00:00:00Z"

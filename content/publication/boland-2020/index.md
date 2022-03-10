@@ -9,7 +9,7 @@ Parental supply of alcohol alone was associated with increased odds of receiving
 Parental supply of alcohol appears to increase the risk of subsequent supply of alcohol from other sources in certain contexts."
 authors:
 - Veronica Boland
-- admin
+- author
 - Wing See Yuen
 - Amy Peacock
 - Alexandra Aiken

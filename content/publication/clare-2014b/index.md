@@ -1,7 +1,7 @@
 ﻿---
 title: "Use of Smoking Cessation and Quit Support Services by Socioeconomic Status Over 10 Years of the National Drug Strategy Household Survey"
 authors:
-- admin
+- author
 - Tim Slade
 - Ryan J Courtney
 - Kristy A Martire
