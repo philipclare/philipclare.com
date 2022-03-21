@@ -75,9 +75,9 @@ R and Stata code for all analysis of APSALS COVID-19 Tobacco paper, Boland et al
 | --- | --- |
 | S1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S1_imputation.R) |
 | S2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S2_data_finalise.do) |
-| S3 - Descriptive statistics | [Stata import](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S3_descriptives.do) |
-| S4 - Analysis of raw trends | [Cross-sectional descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S4_trends.do) |
-| S5 - Multivariable regression models | [Longitudinal descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S5_models.do) |
-| S6 - Correlation analysis | [Primary analyis](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S6_correlation.do) |
+| S3 - Descriptive statistics | [Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S3_descriptives.do) |
+| S4 - Analysis of raw trends | [Trends](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S4_trends.do) |
+| S5 - Multivariable regression models | [Models](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S5_models.do) |
+| S6 - Correlation analysis | [Correlation](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S6_correlation.do) |
 
 1. Lendle SD, Schwab J, Petersen ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
