@@ -29,7 +29,7 @@ Code for all analysis in the article by Cranney et al under review at Preventive
 
 | Description | Code |
 | --- | --- |
-| S1 - Data Cleaning in Stata | [Data cleaning(https://github.com/philipclare/HRS/blob/master/Paper 1/S1_Data_cleaning.do) |
+| S1 - Data Cleaning in Stata | [Data cleaning](https://github.com/philipclare/HRS/blob/master/Paper 1/S1_Data_cleaning.do) |
 | S2 - Imputation in R | [Imputation](https://github.com/philipclare/HRS/blob/master/Paper 1/S2_Imputation.R) |
 | S3 - Post-processing of imputed data in R | [Post-processing](https://github.com/philipclare/HRS/blob/master/Paper 1/S3_Post_processing.R) |
 | S4 - Data finalise and import into Stata | [Data finalise](https://github.com/philipclare/HRS/blob/master/Paper 1/S4_Data_finalise.do) |
