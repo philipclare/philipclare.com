@@ -25,7 +25,7 @@ projects:
 This repository contains R and Stata code used in a number of articles using the Health and Retirement Study (HRS) Cohort Analysis (1).
 
 ## When loneliness becomes a problem: Point prevalence and sustained loneliness comparisons in older American adults of the Health and Retirement Study
-Code for all analysis in the article by Surkalim et al under 2022
+Code for all analysis in the article by Surkalim et al 2022
 
 | Description | Code |
 | --- | --- |
