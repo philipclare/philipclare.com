@@ -24,8 +24,8 @@ projects:
 
 This repository contains R and Stata code used in a number of articles using the Health and Retirement Study (HRS) Cohort Analysis (1).
 
-## Trends in risk factors and management strategies used by people with type 2 diabetes in New South Wales, Australia
-Code for all analysis in the article by Cranney et al under review at Preventive Medicine
+## When loneliness becomes a problem: Point prevalence and sustained loneliness comparisons in older American adults of the Health and Retirement Study
+Code for all analysis in the article by Surkalim et al under 2022
 
 | Description | Code |
 | --- | --- |
