@@ -8,7 +8,7 @@ The analysis shows that, when adjusted for country-level gross domestic product 
 authors:
 - Juliana Erthal
 - Stefano Berterame
-- admin
+- author
 - Richard P Mattick
 date: "2019-01-25T00:00:00Z"
 doi: "10.1007/s40429-019-0234-2"

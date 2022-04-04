@@ -2,7 +2,7 @@
 title: "Association of parental supply of alcohol with adolescent drinking, alcohol-related harms, and alcohol use disorder symptoms: a prospective cohort study"
 authors:
 - Richard P Mattick
-- admin
+- author
 - Alexandra Aiken
 - Monika Wadolowski
 - Delyse Hutchinson

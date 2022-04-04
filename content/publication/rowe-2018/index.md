@@ -5,7 +5,7 @@ authors:
 - Y Gavriel Ansara
 - Alison Jaworski
 - Peter Higgs
-- Philip J Clare
+- author
 date: "2018-07-31T00:00:00Z"
 doi: "10.1080/15332640.2018.1484310"
 featured: false

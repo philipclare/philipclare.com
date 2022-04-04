@@ -12,7 +12,7 @@ authors:
 - Robert Kemp
 - Louisa Degenhardt
 - Amy Peacock
-- admin
+- author
 - Raimondo Bruno
 - Abhilash Dev
 - Oluwadamisola Sotade

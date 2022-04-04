@@ -2,7 +2,7 @@
 title: "Inhibitory processing in young regular cannabis users: an event-related potential study"
 authors:
 - Janette L Smith
-- admin
+- author
 - Jaimi M. Iredale
 - Richard P Mattick
 - Aneta Dimoska Di Marco

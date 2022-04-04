@@ -12,7 +12,7 @@ authors:
 - Gabrielle Campbell
 - Firouzeh Noghrehchi
 - Suzanne Nielsen
-- admin
+- author
 - Raimondo Bruno
 - Nicholas Lintzeris
 - Milton Cohen

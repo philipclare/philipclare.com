@@ -16,7 +16,7 @@ Overall consumption (frequency × quantity) during the restrictions declined by 
 **Conclusions**
 From a survey of secondary school students in Australia, there is evidence for a reduction in overall consumption and related harms during the COVID-19 restrictions."
 authors:
-- admin
+- author
 - Alexandra Aiken
 - Wing See Yuen
 - Emily Upton

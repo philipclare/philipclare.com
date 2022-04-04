@@ -2,7 +2,7 @@
 title: "Smoking and finances: baseline characteristics of low income daily smokers in the FISCALS cohort"
 authors:
 - Kristy A Martire
-- admin
+- author
 - Ryan J Courtney
 - Billie Bonevski
 - Veronica Boland

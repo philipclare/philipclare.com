@@ -4,7 +4,7 @@ authors:
 - Alice Munro
 - Anthony Shakeshaft
 - Courtney Breen
-- admin
+- author
 - Julaine Allan
 - Norm Henderson
 date: "2018-01-18T00:00:00Z"

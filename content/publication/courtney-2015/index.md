@@ -4,7 +4,7 @@ authors:
 - Ryan J Courtney
 - Sundresan Naicker
 - Anthony Shakeshaft
-- admin
+- author
 - Kristy A Martire
 - Richard P Mattick
 date: "2015-06-08T00:00:00Z"

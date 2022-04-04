@@ -3,7 +3,7 @@ title: "Methamphetamine Use Disorder Untreated among Women in Methadone Treatmen
 authors:
 - Zahra Alammehrjerdi
 - Nadine Ezar
-- admin
+- author
 - Kate Dolan
 date: "2016-11-22T00:00:00Z"
 publishDate: "2016-11-22T00:00:00Z"

@@ -2,7 +2,7 @@
 title: "Associations between behavioural risk factors and smoking, heavy smoking and future smoking among an Australian population-based sample"
 authors:
 - Jaimi M Iredale
-- admin
+- author
 - Ryan J Courtney
 - Kristy A Martire
 - Billie Bonevski

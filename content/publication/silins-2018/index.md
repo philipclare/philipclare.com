@@ -29,7 +29,7 @@ authors:
 - Maria Plotnikova
 - George J Youssef
 - Robert J Tait
-- admin
+- author
 - Wayne D Hall
 - Richard P Mattick
 - for the Cannabis Cohorts Research Consortium

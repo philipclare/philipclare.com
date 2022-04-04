@@ -4,7 +4,7 @@ authors:
 - Richard P Mattick
 - Monika Wadolowski
 - Alexandra Aiken
-- admin
+- author
 - Delyse Hutchinson
 - Jackob Najman
 - Tim Slade

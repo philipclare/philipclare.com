@@ -5,7 +5,7 @@ authors:
 - Delyse Hutchinson
 - Raimondo Bruno
 - Alexandra Aiken
-- admin
+- author
 - Tim Slade
 - Jake Najman
 - Kypros Kypri

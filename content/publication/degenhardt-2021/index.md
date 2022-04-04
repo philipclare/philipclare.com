@@ -6,7 +6,7 @@ authors:
 - Suzanne Nielsen
 - Raimondo Bruno
 - Briony Larance
-- admin
+- author
 - Timothy Dobbins
 - Wayne Hall
 - Milton Cohen

@@ -11,7 +11,7 @@ Mean symptom scores increased from before to during COVID-19 restrictions on the
 This study found increases in depression and anxiety symptoms but not greater help-seeking among young Australian adults during the first wave of the pandemic. Increasing availability and awareness of accessible treatment options and psychoeducation is critical, as well as further research into risk and protective factors to help target treatment to this vulnerable age group."
 authors:
 - Emily Upton
-- admin
+- author
 - Alexandra Aiken
 - Veronica Boland
 - Clara De Torres

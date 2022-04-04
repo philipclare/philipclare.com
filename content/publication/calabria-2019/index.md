@@ -5,7 +5,7 @@ authors:
 - Anthony P Shakeshaft
 - Anton Clifford
 - Chiara Stone
-- admin
+- author
 - Julaine Allan
 - Donna Bliss
 date: "2019-07-05T00:00:00Z"

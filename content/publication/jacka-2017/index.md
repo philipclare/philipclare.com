@@ -5,7 +5,7 @@ authors:
 - Amy Peacock
 - Louisa Degenhardt
 - Raimondo Bruno
-- admin
+- author
 - Robert Kemp
 - Abhilash Deve
 - Briony Larance
