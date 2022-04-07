@@ -25,7 +25,7 @@ projects:
 This repository contains R and Stata code used in a number of articles using the NSW Population Health Survey.
 
 ## Trends in risk factors and management strategies used by people with type 2 diabetes in New South Wales, Australia
-Code for all analysis in the article by Cranney et al under review at Preventive Medicine
+Code for all analysis in the article by Cranney et al published in Preventive Medicine: https://doi.org/10.1016/j.ypmed.2022.107004
 
 | Description | R-code |
 | --- | --- |
