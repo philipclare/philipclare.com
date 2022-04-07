@@ -1,5 +1,5 @@
 ﻿---
-title: "Trajectories of alcohol‐induced blackouts in adolescence: early risk factors and alcohol use disorder outcomes in early adulthood"
+title: "Trends in risk factors and management strategies used by people with type 2 diabetes in New South Wales, Australia"
 authors:
 - Louise Cranney
 - Bronwyn McGill
