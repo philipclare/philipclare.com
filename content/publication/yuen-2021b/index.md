@@ -1,5 +1,5 @@
 ﻿---
-title: "Trajectories of alcohol‐induced blackouts in adolescence: early risk factors and alcohol use disorder outcomes in early adulthood"
+title: "The experience of physiological and psychosocial alcohol-related harms across adolescence and its association with alcohol use disorder in early adulthood: A prospective cohort study"
 authors:
 - Wing See Yuen
 - Raimondo Bruno
