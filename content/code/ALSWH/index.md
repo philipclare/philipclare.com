@@ -43,7 +43,7 @@ Code for all analysis in the article by Nguyen-duy et al 2023b.
 
 | Description | R Code |
 | --- | --- |
-| 1 - Data extraction - pull relevant variables from each wave | [Data extraction]](https://github.com/philipclare/ALSWH/blob/master/Code/2022b/1_Data_Extraction.R) |
+| 1 - Data extraction - pull relevant variables from each wave | [Data extraction](https://github.com/philipclare/ALSWH/blob/master/Code/2022b/1_Data_Extraction.R) |
 | 2 - Multiple imputation - impute intermittent missing data | [Imputation](https://github.com/philipclare/ALSWH/blob/master/Code/2022b/2_Multiple_Imputation.R) |
 | 3 - Final data creation - finalise imputed data and structure for analysis | [Finalise data](https://github.com/philipclare/ALSWH/blob/master/Code/2022b/3_Data_Finalise.R) |
 | 4 - Data import - import imputed data into Stata for analysis | [Stata import](https://github.com/philipclare/ALSWH/blob/master/Code/2022b/4_Data_Import.do) |
