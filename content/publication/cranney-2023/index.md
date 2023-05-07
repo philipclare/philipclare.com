@@ -16,7 +16,7 @@ A pilot study was conducted in New South Wales during the COVID-19 pandemic when
 There were 181 intervention participants, primarily mothers with high education levels and living in advantaged areas: 43 (24%) completed surveys post-intervention; and of these, 35 (81%; 19% of participants) completed surveys at follow-up. Sixteen mothers participated in focus groups. Parents' knowledge, self efficacy, role modelling and behaviours improved, but there were no significant differences detected over time. Metrics and survey data indicated webinar recordings, particularly the topics of ‘Fussy Eating’ and ‘Screen time and sleep’, had the greatest engagement and most perceived them as useful (93% and 96%, respectively).
 **Conclusions**
 An online healthy lifestyle intervention to support parents in providing opportunities for their children to engage in healthier lifestyle behaviours was appealing and acceptable to mothers and has the potential to improve families' healthy lifestyle behaviours. Enhancing intervention reach amongst fathers and priority populations, as well as incorporating design elements to enhance engagement will be important.
-**So what?**
+**So what**
 An online healthy lifestyle intervention reached and engaged parents, despite being faced with additional parenting challenges arising from COVID-19 stay-at-home orders."
 date: "2023-04-11T00:00:00Z"
 doi: "10.1002/hpja.733"
