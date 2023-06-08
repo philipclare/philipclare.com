@@ -33,10 +33,13 @@ Code for all analysis in the article by Nguyen-duy et al 2023a.
 | 2 - Merge data - merge waves and create derived variables | [Merge data](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/2_Data_Merge.R) |
 | 3 - Multiple imputation - impute intermittent missing data | [Imputation](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/3_Multiple_Imputation.R) |
 | 4 - Final data creation - finalise imputed data and structure for analysis | [Finalise data](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/4_Data_Finalise.R) |
-| 5 - LTMLE analysis - using dynamic regimes based on age, using the package 'ltmle' (1). | [Naive analysis](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/5_Dynamic_Regimes.R) |
-| 6 - Sensitivty analysis using lower physical activity cut-point. | [Sensitivity 1](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/6_Dynamic_Regimes_Sensitivity1.R) |
-| 7 - Sensitivty analysis excluding variables wholly missing in some waves. | [Sensitivity 1](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/7_Dynamic_Regimes_Sensitivity2.R) |
+| 5 - LTMLE analysis - using dynamic regimes based on age, using the package 'ltmle' (1). | [Primary analysis](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/5_Dynamic_Regimes.R) |
+| 6 - Sensitivity analysis using lower physical activity cut-point. | [Sensitivity 1 & 2](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/6_Dynamic_Regimes_Sensitivity1.R) |
+| 7 - Sensitivity analysis excluding variables wholly missing in some waves. | [Sensitivity 3](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/7_Dynamic_Regimes_Sensitivity2.R) |
 | 8 - Pool results across imputations and create analysis figures | [Pool results](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/8_Pool_Results.R) |
+| 9 - Create plots of results using ggplot | [Create plots](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/9_Create_Plots.R) |
+| 10 - Generate 'table 1' of baseline descriptive statistics | [Table 1](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/10_Descriptive_Statistics.R) |
+| 11 - E-Value analysis of unmeasured confounding | [Evalue analysis](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/11_EValue_Analysis.R) |
 
 ## Physical activity trajectories and associations with health-related quality of life
 Code for all analysis in the article by Nguyen-duy et al 2023b.
