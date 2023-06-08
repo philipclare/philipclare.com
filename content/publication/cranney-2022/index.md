@@ -15,6 +15,7 @@ image:
   preview_only: false
 projects:
 - PHS
+- PANORG
 publication: 'Preventive Medicine'
 publication_short: ""
 publication_types:
