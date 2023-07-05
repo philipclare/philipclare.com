@@ -29,7 +29,6 @@ Code for all analysis in the article by Nguyen-duy et al 2023a.
 
 | Description | R Code |
 | --- | --- |
-<<<<<<< Updated upstream
 | 1 - Data extraction - pull relevant variables from each wave | [Data extraction](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/1_Data_Extraction.R) |
 | 2 - Merge data - merge waves and create derived variables | [Merge data](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/2_Data_Merge.R) |
 | 3 - Multiple imputation - impute intermittent missing data | [Imputation](https://github.com/philipclare/ALSWH/blob/master/Code/2022a/3_Multiple_Imputation.R) |
