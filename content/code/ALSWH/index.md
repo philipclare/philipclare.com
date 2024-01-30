@@ -40,7 +40,7 @@ Code for all analysis in the article by Nguyen-duy et al 2024a.
 | 9 - Create plots of results using ggplot | [Create plots](https://github.com/philipclare/ALSWH/blob/master/Code/2024a/9_Create_Plots.R) |
 | 10 - Generate 'table 1' of baseline descriptive statistics | [Table 1](https://github.com/philipclare/ALSWH/blob/master/Code/2024a/10_Descriptive_Statistics.R) |
 | 11 - E-value analysis to test sensitivity to unmeasured confounding | [Evalue analysis](https://github.com/philipclare/ALSWH/blob/master/Code/2024a/11_EValue_Analysis.R) |
-| 12 - Create summary of missing data | [Missing data](https://github.com/philipclare/ALSWH/blob/master/Code/2023a/12_Missing_data_summary.R) |
+| 12 - Create summary of missing data | [Missing data](https://github.com/philipclare/ALSWH/blob/master/Code/2024a/12_Missing_data_summary.R) |
 
 ## Physical activity trajectories and associations with health-related quality of life
 Code for all analysis in the article by Nguyen-duy et al 2024b.
