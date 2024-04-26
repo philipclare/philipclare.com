@@ -69,15 +69,28 @@ R and Stata code for all analysis of APSALS COVID-19 Alcohol paper, Clare et al 
 | S7 - Sensitivity analysis using continuous time and 'high risk' consumption variable | [Sensitivity analysis](https://github.com/philipclare/APSALS/blob/master/Code/2021b/S7_sensitivity_analysis.do) |
 
 ## Tobacco and vaping characteristics over 5 years in the Australian Parental Supply of Alcohol Longitudinal Study (APSALS) 
-R and Stata code for all analysis of APSALS COVID-19 Tobacco paper, Boland et al 2022, in progress
+R and Stata code for all analysis of APSALS COVID-19 Tobacco paper, Boland et al 2024, in progress
 
 | Description | R-code |
 | --- | --- |
-| S1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S1_imputation.R) |
-| S2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S2_data_finalise.do) |
-| S3 - Descriptive statistics | [Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S3_descriptives.do) |
-| S4 - Analysis of raw trends | [Trends](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S4_trends.do) |
-| S5 - Multivariable regression models | [Models](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S5_models.do) |
-| S6 - Correlation analysis | [Correlation](https://github.com/philipclare/APSALS/blob/master/Code/2022a/S6_correlation.do) |
+| S1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S1_imputation.R) |
+| S2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S2_data_finalise.do) |
+| S3 - Descriptive statistics | [Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S3_descriptives.do) |
+| S4 - Analysis of raw trends | [Trends](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S4_trends.do) |
+| S5 - Multivariable regression models | [Models](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S5_models.do) |
+| S6 - Correlation analysis | [Correlation](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S6_correlation.do) |.
+
+## Does the trajectory of alcohol use and related harm differ based on the age of initiation to alcohol? Results from a prospective cohort study.
+R and Stata code for all analysis of APSALS Initiation trajectories paper, Clare et al 2024, being presented at KBS2024.
+
+| Description | R-code |
+| --- | --- |
+| S1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S1_multiple_imputation.R) |
+| S2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S2_data_finalise_after_imputation.R) |
+| S4 - Import imputed data to Stata | [Import to Stata](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S3_import_data_into_stata.do) |
+| S4 - Cross-sectional Descriptive statistics | [Cross-sectional Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S4_crosssectional_descriptives.R) |
+| S5 - Longitudinal Descriptive statistics | [Longitudinal Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S5_longitudinal_descriptives.do) |
+| S6 - Primary analysis | [Primary analysis](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S6_primary_analysis.do) |
+| S7 - Sensitivity analysis | [Sensitivity analysis](https://github.com/philipclare/APSALS/blob/master/Code/2024b/S7_sensitivity_analysis.do) |
 
 1. Lendle SD, Schwab J, Petersen ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
