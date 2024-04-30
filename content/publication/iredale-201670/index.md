@@ -1,0 +1,45 @@
+---
+title: Associations between behavioural risk factors and smoking, heavy smoking and
+  future smoking among an Australian population-based sample
+authors:
+- Jaimi M. Iredale
+- Philip J. Clare
+- Ryan J. Courtney
+- Kristy A. Martire
+- Billie Bonevski
+- Ron Borland
+- Mohammad Siahpush
+- Richard P. Mattick
+date: '2016-01-01'
+publishDate: '2024-04-30T23:52:15.330466Z'
+publication_types:
+- article-journal
+publication: '*Preventive Medicine*'
+doi: 10.1016/j.ypmed.2015.11.020
+abstract: 'Introduction: Tobacco smoking co-occurs with behavioural risk factors including
+  diet, alcohol use and obesity. However, the association between behavioural risk
+  factors and heavy smoking (> 20 cig/day) compared to light-moderate smoking is unknown.
+  The link between behavioural risk factors and future smoking for both ex and current
+  smokers is also unknown. This study sought to examine these relationships. It is
+  hypothesised that behavioural risk factors will be more strongly associated with
+  heavy smoking. Method: Data from Wave 7 (2007) of the Household and Labour Dynamics
+  in Australia (HILDA) survey was analysed using logistic regression to determine
+  relationships between diet (fruit and vegetable consumption, and unhealthy diet
+  choices), alcohol consumption, obesity and physical activity with light-moderate
+  smoking and heavy smoking. The association between these risk factors and future
+  smoking (2008) was assessed for current and ex-smokers (2007). Results: Obese respondents
+  were less likely to be light/moderate smokers (RRR: 0.53; 95% CI: 0.43, 0.66) but
+  not heavy smokers. Those who consume confectionary weekly were less likely to be
+  light/moderate smokers (RRR: 0.73; 95% CI: 0.61, 0.87), but not heavy smokers. Smokers
+  in 2007 were more likely to continue smoking in 2008 if they consumed 1-4 drinks
+  per occasion (OR: 2.52; 95% CI: 1.13, 5.62). Ex-smokers in 2007 were less likely
+  to relapse in 2008 if they consumed recommended levels of both fruit and vegetables
+  (OR: 0.31; CI: 0.10, 0.91). Conclusion: The relationships between heavy smoking
+  and behavioural risk factors differ from moderate-light smoking. Future primary
+  care interventions would benefit from targeting multiple risk factors, particularly
+  for heavy smokers. © 2015 Elsevier Inc.'
+links:
+- name: URL
+  url: 
+    https://www.scopus.com/inward/record.uri?eid=2-s2.0-84952926549&doi=10.1016%2fj.ypmed.2015.11.020&partnerID=40&md5=0acf62aa95c04a2552642869d98c9dbe
+---
