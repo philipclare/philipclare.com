@@ -11,7 +11,7 @@ authors:
 date: '2022-01-01'
 publishDate: '2024-04-30T23:52:15.385808Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*European Heart Journal*'
 doi: 10.1093/eurheartj/ehac572
 abstract: "Aims: Vigorous physical activity (VPA) is a time-efficient way to achieve

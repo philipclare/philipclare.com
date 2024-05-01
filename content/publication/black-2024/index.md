@@ -18,7 +18,7 @@ authors:
 date: '2024-01-01'
 publishDate: '2024-04-30T23:52:15.429707Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Addiction*'
 doi: 10.1111/add.16468
 abstract: 'Background and aims: Adolescent polysubstance use has been associated with

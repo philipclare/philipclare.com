@@ -21,7 +21,7 @@ authors:
 date: '2020-01-01'
 publishDate: '2024-04-30T23:52:15.445783Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Drug and Alcohol Dependence*'
 doi: 10.1016/j.drugalcdep.2020.108204
 abstract: 'Background: Parents frequently supply alcohol to their children, often

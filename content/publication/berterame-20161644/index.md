@@ -22,7 +22,7 @@ authors:
 date: '2016-01-01'
 publishDate: '2024-04-30T23:52:15.394446Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*The Lancet*'
 doi: 10.1016/S0140-6736(16)00161-6
 abstract: Background Despite opioid analgesics being essential for pain relief, use

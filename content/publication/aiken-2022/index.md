@@ -22,7 +22,7 @@ authors:
 date: '2022-01-01'
 publishDate: '2024-04-30T23:52:15.466238Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Drug and Alcohol Dependence*'
 doi: 10.1016/j.drugalcdep.2022.109533
 abstract: 'Background: Supply of alcohol to adolescents is associated with increased

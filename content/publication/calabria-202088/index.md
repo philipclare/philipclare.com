@@ -13,7 +13,7 @@ authors:
 date: '2020-01-01'
 publishDate: '2024-04-30T23:52:15.414132Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*International Journal of Psychology*'
 doi: 10.1002/ijop.12603
 abstract: There is a lack of evidence of effective and appropriate drug and alcohol

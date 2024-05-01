@@ -15,7 +15,7 @@ authors:
 date: '2018-01-01'
 publishDate: '2024-04-30T23:52:15.377715Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Alcoholism: Clinical and Experimental Research*'
 doi: 10.1111/acer.13525
 abstract: 'Background: Early alcohol initiation is common and has been associated

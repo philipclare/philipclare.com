@@ -9,7 +9,7 @@ authors:
 date: '2017-01-01'
 publishDate: '2024-04-30T23:52:15.381841Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Iranian Journal of Psychiatry and Behavioral Sciences*'
 doi: 10.5812/ijpbs.7861
 abstract: "Background: Methamphetamine (MA) use disorder is a new health problem among
