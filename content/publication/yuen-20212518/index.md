@@ -21,7 +21,7 @@ authors:
 date: '2021-01-01'
 publishDate: '2024-04-30T23:52:15.518574Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Alcoholism: Clinical and Experimental Research*'
 doi: 10.1111/acer.14726
 abstract: 'Background: Different forms of alcohol-related harm (e.g., hangovers, fighting)
