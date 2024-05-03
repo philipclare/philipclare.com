@@ -89,10 +89,12 @@ R and Stata code for all analysis of APSALS Initiation trajectories paper, Clare
 | 2 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R2_multiple_imputation.R) |
 | 3 - Test model fit of nonlinear terms | [Model fit](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R3_model_fit.do) |
 | 4 - Primary analysis | [Primary analysis](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R4_primary_analysis.do) |
-| 5 - Pool MI results using Rubin's rubles to get final estimates | [Pool results](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R5_pool_MI_results.R) |
-| 6 - Create figures using ggplot | [Create figures](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R6_create_figures.R) |
-| 7 - Descriptive statistics | [Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R7_descriptive_statistics.do) |
-| 8 - Generate missing data summary for appendix | [Missing data](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R8_missing_data_summary.do) |
+| 5 - Secondary analysis | [Secondary analysis](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R5_secondary_analysis.do) |
+| 6 - Pool MI results using Rubin's rubles to get final estimates | [Pool results](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R6_pool_MI_results.R) |
+| 7 - Create primary analysis figures using ggplot | [Create primary figures](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R7_create_primary_figures.R) |
+| 8 - Create secondary analysis figures using ggplot | [Create secondary figures](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R8_create_secondary_figures.R) |
+| 9 - Descriptive statistics | [Descriptives](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R9_descriptive_statistics.do) |
+| 10 - Generate missing data summary for appendix | [Missing data](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R10_missing_data_summary.do) |
 
 
 1. Lendle SD, Schwab J, Petersen ML, van der Laan MJ. ltmle: An R Package Implementing Targeted Minimum Loss-Based Estimation for Longitudinal Data. Journal of Statistical Software. 2017;81(1):1-21.
