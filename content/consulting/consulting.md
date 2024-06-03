@@ -13,7 +13,7 @@ subtitle = ""
 
 +++
 
-I offer statistical consulting services to government, NGOs and independent researchers.
+I offer statistical consulting services to academia, government, NGOs and independent researchers.
 
 I have particular expertise in:
 
@@ -22,3 +22,7 @@ I have particular expertise in:
 - Design of individual and cluster randomised controlled trials
 - Machine learning for predictive modelling
 - Design and analysis of cross-over trials
+
+If you have need of advice or expertise in designing or analysing research, please contact me via email to discuss your needs.
+
+Note: I do not accept work from the alcohol, tobacco, or gambling industries.
