@@ -85,7 +85,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "philip.clare@sydney.edu.au"
+email = "info@philipclare.com"
 phone = ""
 
 # Directions for visitors to locate you.
