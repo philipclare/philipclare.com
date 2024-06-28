@@ -25,6 +25,6 @@ I have particular expertise in:
 
 If you have need of advice or expertise in designing or analysing research, please contact me via email to discuss your needs.
 
-Note: I do not accept work from the alcohol, tobacco, or gambling industries.
-
 <a href="consulting.pdf" download>Download a brochure</a>
+
+Note: I do not accept work from the alcohol, tobacco, or gambling industries.
