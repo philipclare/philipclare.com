@@ -1,7 +1,4 @@
 +++
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -17,11 +14,14 @@ I offer statistical consulting services to academia, government, NGOs and indepe
 
 I have particular expertise in:
 
-- Causal inference methods
+- Sample size calculations, including calculation by simulation
 - The design and analysis of cross-sectional and longitudinal surveys
 - Design of individual and cluster randomised controlled trials
-- Machine learning for predictive modelling
 - Design and analysis of cross-over trials
+- Causal inference methods
+- Machine learning for predictive modelling
+
+I also offer training in statistical analysis, either 1-on-1 or via workshops.
 
 If you have need of advice or expertise in designing or analysing research, please contact me via email to discuss your needs.
 
