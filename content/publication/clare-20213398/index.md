@@ -19,6 +19,7 @@ date: '2021-01-01'
 publishDate: '2024-04-30T23:52:15.402397Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*Addiction*'
 doi: 10.1111/add.15599
 abstract: "Aims: To estimate change in young people's alcohol consumption during COVID-19

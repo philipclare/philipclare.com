@@ -17,6 +17,7 @@ date: '2023-01-01'
 publishDate: '2024-04-30T23:52:15.474581Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*Psychological Medicine*'
 doi: 10.1017/S0033291721001963
 abstract: 'Background Young people may have elevated risk for poorer mental health

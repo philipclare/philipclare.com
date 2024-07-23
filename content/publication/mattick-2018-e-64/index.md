@@ -18,6 +18,7 @@ date: '2018-01-01'
 publishDate: '2024-04-30T23:52:15.364991Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*The Lancet Public Health*'
 doi: 10.1016/S2468-2667(17)30240-2
 abstract: 'Background: Some parents supply alcohol to their children, reportedly to

@@ -21,6 +21,7 @@ date: '2020-01-01'
 publishDate: '2024-04-30T23:52:15.425701Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*Pediatrics*'
 doi: 10.1542/peds.2020-0440
 abstract: 'OBJECTIVES: Adolescents often display heterogenous trajectories of alcohol

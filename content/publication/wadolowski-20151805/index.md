@@ -15,6 +15,7 @@ date: '2015-01-01'
 publishDate: '2024-04-30T23:52:15.498372Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*Alcoholism: Clinical and Experimental Research*'
 doi: 10.1111/acer.12826
 abstract: "Background: Sipping alcohol is common during early adolescence, but research

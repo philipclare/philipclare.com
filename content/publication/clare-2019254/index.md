@@ -9,6 +9,7 @@ date: '2019-01-01'
 publishDate: '2024-04-30T23:52:15.406259Z'
 publication_types:
 - "2"
+projects: [causal-inference]
 publication: '*International Journal of Epidemiology*'
 doi: 10.1093/ije/dyy218
 abstract: 'Background Obtaining unbiased causal estimates from longitudinal observational

@@ -16,6 +16,7 @@ date: '2021-01-01'
 publishDate: '2024-04-30T23:52:15.356739Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*American Journal of Drug and Alcohol Abuse*'
 doi: 10.1080/00952990.2021.1927066
 abstract: 'Background: Parents are the main supplier of alcohol to children but it
