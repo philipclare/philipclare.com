@@ -13,6 +13,9 @@ publishDate: '2024-07-23T02:43:29.719187Z'
 publication_types:
 - "2"
 publication: '*J Epidemiol Community Health*'
-project:
+projects:
 - causal-inference
+- HILDA
+- HRS
+- CHARLS
 ---

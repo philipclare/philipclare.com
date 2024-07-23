@@ -12,7 +12,7 @@ publishDate: '2024-07-23T02:43:29.709214Z'
 publication_types:
 - "2"
 publication: '*Plos Medicine*'
-project:
+projects:
 - causal-inference
 - ALSWH
 ---
