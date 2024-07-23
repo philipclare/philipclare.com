@@ -16,6 +16,6 @@ authors:
 date: '2023-01-01'
 publishDate: '2024-07-23T02:43:29.661321Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*BMJ open*'
 ---

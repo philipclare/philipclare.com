@@ -14,6 +14,6 @@ authors:
 date: '2024-01-01'
 publishDate: '2024-07-23T02:43:29.652345Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Journal of Sport and Health Science*'
 ---

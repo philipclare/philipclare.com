@@ -10,7 +10,7 @@ authors:
 date: '2024-01-01'
 publishDate: '2024-07-23T02:43:29.709214Z'
 publication_types:
-- article-journal
+- "2"
 publication: '*Plos Medicine*'
 project:
 - causal-inference
