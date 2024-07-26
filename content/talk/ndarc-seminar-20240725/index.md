@@ -6,7 +6,7 @@ authors: []
 date: "2024-07-25T15:00:00Z"
 date_end: "2024-07-25T16:00:00Z"
 event: NDARC Seminar Series
-event_url: "https://www.unsw.edu.au/research/ndarc/news-events/events/impacts-of-parental-supply-and-adolescent-alcohol-use"
+event_url: https://www.unsw.edu.au/research/ndarc/news-events/events/impacts-of-parental-supply-and-adolescent-alcohol-use
 featured: false
 image:
   caption: 'Image credit: [**Better Meetings**]'
