@@ -19,6 +19,8 @@ date: '2021-01-01'
 publishDate: '2024-04-30T23:52:15.389953Z'
 publication_types:
 - "2"
+projects:
+- point
 publication: '*JAMA Network Open*'
 doi: 10.1001/jamanetworkopen.2021.3059
 abstract: 'Importance: Despite concern about harms related to long-term prescribed
