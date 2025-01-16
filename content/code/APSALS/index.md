@@ -20,7 +20,7 @@ image:
   focal_point: ""
   preview_only: false
 projects:
-- APSALS
+- apsals
 - causal-inference
 ---
 

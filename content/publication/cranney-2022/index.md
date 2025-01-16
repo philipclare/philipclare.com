@@ -11,6 +11,9 @@ publishDate: '2024-04-30T23:52:15.522645Z'
 publication_types:
 - "2"
 publication: '*Preventive Medicine*'
+projects:
+- phs
+- panorg
 doi: 10.1016/j.ypmed.2022.107004
 abstract: Adopting healthy lifestyle behaviours is an important component of Type
   2 diabetes (T2D) self-management, which can lower risks of further health complications.

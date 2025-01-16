@@ -20,6 +20,7 @@ date: '2021-01-01'
 publishDate: '2024-04-30T23:52:15.510231Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*Addiction*'
 doi: 10.1111/add.15415
 abstract: 'Background and aims: Experience of alcohol-induced memory blackouts in

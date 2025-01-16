@@ -21,6 +21,7 @@ date: '2022-01-01'
 publishDate: '2024-04-30T23:52:15.437666Z'
 publication_types:
 - "2"
+projects: [apsals]
 publication: '*Addiction*'
 doi: 10.1111/add.15991
 abstract: 'Background and aims: Tolerance to the effects of alcohol is an important

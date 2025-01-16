@@ -19,6 +19,8 @@ date: '2021-01-01'
 publishDate: '2024-04-30T23:52:15.336517Z'
 publication_types:
 - "2"
+projects:
+- point
 publication: '*British Journal of Clinical Pharmacology*'
 doi: 10.1111/bcp.14715
 abstract: 'Aims: Pregabalin has become widely used as an alternative to opioids in

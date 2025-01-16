@@ -20,6 +20,8 @@ date: '2020-01-01'
 publishDate: '2024-04-30T23:52:15.410135Z'
 publication_types:
 - "2"
+projects:
+- point
 publication: '*EClinicalMedicine*'
 doi: 10.1016/j.eclinm.2020.100592
 abstract: 'Background: The literature suggests patient characteristics and higher

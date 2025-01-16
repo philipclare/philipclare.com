@@ -16,6 +16,8 @@ date: '2022-01-01'
 publishDate: '2024-04-30T23:52:15.486488Z'
 publication_types:
 - "2"
+projects:
+- uk-biobank
 publication: '*British Journal of Sports Medicine*'
 doi: 10.1136/bjsports-2021-105195
 abstract: 'Objectives To examine independent and interactive associations of physical

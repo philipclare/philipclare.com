@@ -20,6 +20,7 @@ date: '2020-01-01'
 publishDate: '2024-04-30T23:52:15.502492Z'
 publication_types:
 - "2"
+projects: [APSALS]
 publication: '*Addiction*'
 doi: 10.1111/add.15033
 abstract: 'Aims: Despite legal age limits set for alcohol consumption, parents are

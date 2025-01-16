@@ -20,6 +20,7 @@ date: '2019-01-01'
 publishDate: '2024-04-30T23:52:15.458359Z'
 publication_types:
 - "2"
+projects: [APSALS]
 publication: '*Drug and Alcohol Dependence*'
 doi: 10.1016/j.drugalcdep.2019.06.031
 abstract: 'Background: Recent research has not supported the idea that parental supply
