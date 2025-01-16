@@ -24,8 +24,6 @@ projects:
 - causal-inference
 ---
 
-# Analysis of the Australian Longitudinal Study of Women's Health (ALSWH)
-
 This repository contains R code used in articles using the ALSWH.
 
 ## Physical activity across midlife and health-related quality of life in Australian women: A target trial emulation using a longitudinal cohort
