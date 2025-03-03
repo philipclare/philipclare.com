@@ -1,5 +1,5 @@
 ---
-title: Mental health and alcohol use in young Australians during COVID-19
+title: "Mental health and alcohol use in young Australians during COVID-19"
 abstract: "This presentation covered changes in mental health and alcohol-related harm for young Australians during COVID-19.
 In it, I discussed the findings of two recent articles published on the Australian Parental Supply of Alcohol Longitudinal Study (APSALS) cohort, on changes in mental health and alcohol use/harms during the COVID-19 restrictions in mid 2020."
 all_day: false
