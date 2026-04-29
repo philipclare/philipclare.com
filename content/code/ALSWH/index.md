@@ -59,8 +59,8 @@ Code for all analysis in the article examining the causal effects of meeting phy
 | 8 - Pool results across imputations and create analysis figures | [Pool results](https://github.com/philipclare/ALSWH/blob/master/Code/2025a/8_Pool_Results.R) |
 | 9 - Create plots to graphically report the analysis findings | [Create plots](https://github.com/philipclare/ALSWH/blob/master/Code/2025a/9_Create_Plots.R) |
 
-## Causal effects of loneliness on all-cause mortality
-Code for all analysis in the article examining the causal effects of loneliness on mortality (HaGani et al 2025, under review).
+## Loneliness and all cause mortality in Australian women aged 45 years and older: causal inference analysis of longitudinal data
+Code for all analysis in the article examining the causal effects of loneliness on mortality (HaGani et al 2025), published in BMJ Medicine: https://doi.org/10.1136/bmjmed-2024-001004.
 
 | Description | R Code |
 | --- | --- |
