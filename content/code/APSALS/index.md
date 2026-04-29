@@ -29,7 +29,7 @@ This repository contains R code used in a number of articles using the Australia
 ## The overall effect of parental supply of alcohol across adolescence on alcohol-related harms in early adulthood—a prospective cohort study
 Code for all analysis in the article by Clare et al 2020 published in Addiction: https://doi.org/10.1111/add.15005
 
-| Description | R-code |
+| Description | R code |
 | --- | --- |
 | 1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2020a/A1_multiple_imputation.R) |
 | 2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2020a/A2_final_data_creation.R) |
@@ -45,7 +45,7 @@ Code for all analysis in the article by Clare et al 2020 published in Addiction:
 ## Changes in mental health and help-seeking among young Australian adults during the COVID-19 pandemic: a prospective cohort study
 R and Stata code for all analysis of APSALS COVID-19 Alcohol paper, Upton et al 2021 published in Psychological Medicine: https://doi.org/10.1017/S0033291721001963
 
-| Description | R-code |
+| Description | R/Stata code |
 | --- | --- |
 | 1 - Missing data patterns | [Missing data](https://github.com/philipclare/APSALS/blob/master/Code/2021a/S1_Covid_MH_Missing_data_patterns.do) |
 | 2 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2021a/S2_Covid_MH_Imputation.R) |
@@ -58,7 +58,7 @@ R and Stata code for all analysis of APSALS COVID-19 Alcohol paper, Upton et al 
 ## Alcohol use among young Australian adults during the COVID-19 pandemic: a prospective cohort study 
 R and Stata code for all analysis of APSALS COVID-19 Alcohol paper, Clare et al 2021 published in Addiction: https://doi.org/10.1111/add.15599
 
-| Description | R-code |
+| Description | R/Stata code |
 | --- | --- |
 | 1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2021b/S1_multiple_imputation.R) |
 | 2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2021b/S2_data_finalise_after_imputation.R) |
@@ -71,7 +71,7 @@ R and Stata code for all analysis of APSALS COVID-19 Alcohol paper, Clare et al 
 ## Tobacco and vaping characteristics over 5 years in the Australian Parental Supply of Alcohol Longitudinal Study (APSALS) 
 R and Stata code for all analysis of APSALS COVID-19 Tobacco paper, Boland et al 2024, in progress
 
-| Description | R-code |
+| Description | R/Stata code |
 | --- | --- |
 | 1 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S1_imputation.R) |
 | 2 - Final data creation | [Final data creation](https://github.com/philipclare/APSALS/blob/master/Code/2024a/S2_data_finalise.do) |
@@ -83,7 +83,7 @@ R and Stata code for all analysis of APSALS COVID-19 Tobacco paper, Boland et al
 ## Does the trajectory of alcohol use and related harm differ based on the age of initiation to alcohol? Results from a prospective cohort study.
 R and Stata code for all analysis of APSALS Initiation trajectories paper, Clare et al 2024, being presented at KBS2024.
 
-| Description | R-code |
+| Description | R/Stata code |
 | --- | --- |
 | 1 - Create data subset from APSALS cohort data | [Data creation](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R1_data_creation.do) |
 | 2 - Multiple imputation | [Multiple imputation](https://github.com/philipclare/APSALS/blob/master/Code/2024b/R2_multiple_imputation.R) |

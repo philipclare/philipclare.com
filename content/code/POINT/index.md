@@ -24,7 +24,7 @@ projects:
 The association between alcohol use and pain in people with chronic non-cancer pain prescribed pharmaceutical opioids – a prospective cohort study.
 This repository contains R code used in the TMLE analysis of POINT data on the effect of alcohol exposure on chronic pain, by Clare et al. 2019
 
-| Description | Github R code | Download R code |
+| Description | Github code | Download code |
 | --- | --- | --- |
 | P1 - Multiple imputation | [Multiple imputation code](https://github.com/philipclare/POINT/blob/master/Code/P1_multiple_imputation.R) | [Download code](https://philipclare.github.io/POINT/Code/P1_multiple_imputation.R) |
 | P2 - Longitudinal sample descriptives (article Table 2) | [Longitudinal descriptives code](https://github.com/philipclare/POINT/blob/master/Code/P2_descriptives.R) | [Download code](https://philipclare.github.io/POINT/Code/P2_descriptives.R) |

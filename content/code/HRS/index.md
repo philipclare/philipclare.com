@@ -27,7 +27,7 @@ This repository contains R and Stata code used in a number of articles using the
 ## When loneliness becomes a problem: Point prevalence and sustained loneliness comparisons in older American adults of the Health and Retirement Study
 Code for all analysis in the article by Surkalim et al 2023, published in the Journals of Gerontology: https://doi.org/10.1093/geronb/gbad062
 
-| Description | Code |
+| Description | R/Stata code |
 | --- | --- |
 | S1 - Data Cleaning in Stata | [Data cleaning](https://github.com/philipclare/HRS/blob/master/2023/S1_Data_cleaning.do) |
 | S2 - Imputation in R | [Imputation](https://github.com/philipclare/HRS/blob/master/2023/S2_Imputation.R) |
@@ -43,7 +43,7 @@ Code for all analysis in the article by Surkalim et al 2023, published in the Jo
 ## Exercise to socialize? Bidirectional relationships between physical activity and loneliness in middle-aged and older American adults
 Code for all analysis in the article by Surkalim et al 2024, published in the American Journal of Epidemiology: https://doi.org/10.1093/aje/kwae001
 
-| Description | Code |
+| Description | R/Stata code |
 | --- | --- |
 | S0 - Data Cleaning in Stata | [Data cleaning](https://github.com/philipclare/HRS/blob/master/2024/S0_data_cleaning.do) |
 | S1 - Imputation in R | [Imputation](https://github.com/philipclare/HRS/blob/master/2024/S1_multiple_imputation.R) |

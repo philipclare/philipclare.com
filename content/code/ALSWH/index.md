@@ -114,7 +114,7 @@ Code for all analysis in the article examining the causal effects of physical ac
 ## Physical activity trajectories and associations with health-related quality of life
 Code for all analysis in the article by Nguyen-duy et al 2024b.
 
-| Description | R Code |
+| Description | R/Stata code |
 | --- | --- |
 | 1 - Data extraction - pull relevant variables from each wave | [Data extraction](https://github.com/philipclare/ALSWH/blob/master/Code/2024b/1_Data_Extraction.R) |
 | 2 - Multiple imputation - impute intermittent missing data | [Imputation](https://github.com/philipclare/ALSWH/blob/master/Code/2024b/2_Multiple_Imputation.R) |

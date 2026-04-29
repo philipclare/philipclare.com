@@ -27,7 +27,7 @@ This repository contains R and Stata code used in a number of articles using the
 ## Trends in risk factors and management strategies used by people with type 2 diabetes in New South Wales, Australia
 Code for all analysis in the article by Cranney et al published in Preventive Medicine: https://doi.org/10.1016/j.ypmed.2022.107004
 
-| Description | R-code |
+| Description | R/Stata code |
 | --- | --- |
 | S1 - Data Preparation and imputation | [Data preparation](https://github.com/philipclare/PHS/blob/master/Code/2021a/S1_Diabetes_analysis_Data_Preparation.do) |
 | S2 - Descriptive statistics | [Descriptives](https://github.com/philipclare/PHS/blob/master/Code/2021a/S2_Diabetes_analysis_Descriptives.do) |

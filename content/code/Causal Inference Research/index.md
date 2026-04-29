@@ -39,8 +39,8 @@ Comparison of methods of adjusting for time-varying confounding with missing dat
 The Stata code creates a series of quasi-random datasets (3 different datasets were used in the simulation) using a pre-specified data structure.
 Analysis code runs all analyses on those datasets, and saves the results. Note that the code is written to run on the UNSW Katana cluster computer, which uses a scheduler to sequentially call the R script and pass it the particular iterations of the data to be processed in each step. To run the code on a standard computer, the code can be edited so the parameters passed by the Katana scheduler are defined internally.
 
-| Description | Code |
-| --- | --- |
+| Description | Code | Download code |
+| --- | --- | --- |
 | S1 - Data creation of Dataset 1 - Stata Code | [Data creation code](https://github.com/philipclare/missing_data_simulation/blob/master/Code/S1_data_creation_dataset1.do) | [Download code](https://philipclare.github.io/missing_data_simulation/Code/S1_data_creation_dataset1.do) |
 | S2 - Data creation of Dataset 2 - Stata Code | [Data creation code](https://github.com/philipclare/missing_data_simulation/blob/master/Code/S2_data_creation_dataset2.do) | [Download code](https://philipclare.github.io/missing_data_simulation/Code/S2_data_creation_dataset2.do) |
 | S3 - Data creation of Dataset 3 - Stata Code | [Data creation code](https://github.com/philipclare/missing_data_simulation/blob/master/Code/S3_data_creation_dataset3.do) | [Download code](https://philipclare.github.io/missing_data_simulation/Code/S3_data_creation_dataset3.do) |
@@ -49,7 +49,7 @@ Analysis code runs all analyses on those datasets, and saves the results. Note t
 Targeted Maximum Likelihood Estimation to adjust for time-varying confounding – a tutorial paper.
 This repository contains data and a number of snippets of R code, used in the TMLE tutorial by Clare, Dobbins, Bruno and Mattick.
 
-| Description | Markdown | Github R code | Download R code |
+| Description | Markdown | Github code | Download code |
 | --- | --- | --- | --- |
 | Creating the longitudinal dataset used in example analyses. Data creation is done using the package 'simcausal' (1). | [Data Creation Markdown](https://philipclare.github.io/tmletutorial/Markdown/data-creation.nb.html) | [Data Creation Code](https://github.com/philipclare/tmletutorial/blob/master/Code/data-creation.R) | [Download code](https://philipclare.github.io/tmletutorial/Code/data-creation.R) |
 | Cross-sectional TMLE analysis, both manually and using the package 'tmle' (2). | [Cross-sectional Analysis Markdown](https://philipclare.github.io/tmletutorial/Markdown/cross-sectional.nb.html) | [Cross-sectional Analysis Code](https://github.com/philipclare/tmletutorial/blob/master/Code/cross-sectional.R) | [Download code](https://philipclare.github.io/tmletutorial/Code/cross-sectional.R) |
